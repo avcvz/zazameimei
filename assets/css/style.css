@@ -1,0 +1,157 @@
+* {
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("../fonts/Lobster.otf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.dfont");
+}
+
+@font-face {
+    font-family: "cochin";
+    src: url("../fonts/cochin.otf");
+}
+
+.para {
+	/* font-family: "HelveticaNeue"; */
+	font-weight: lighter;
+	color: #575353;
+	
+}
+
+#dirty {
+	background-color: #F7F7F7;
+}
+
+#logo {
+	font-family: "Lobster";
+	font-size: 9vh;
+	color: black;
+
+}
+
+.anti-padding {
+	background-color: #FFCD27
+}
+
+
+.navigation {
+	font-family: "cochin";
+	color: white;
+	background-color: #4D4343
+	
+}
+
+.blog-title {
+	font-weight: lighter;
+	font-size: 6vh;
+	color: #3B3939;
+}
+
+.blogPostdate {
+	font-weight: lighter;
+	color: #908C8C;
+}
+
+/* @font-face {
+	font-family: "Quantify";
+	src: url("../fonts/Quantify.ttf");
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	
+
+
+
+  
+   
+
+  
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+
+	
+
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	
+
+
+
+{
