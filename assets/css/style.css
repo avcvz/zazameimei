@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: "HelveticaNeue";
+    font-family: "Neue";
     src: url("../fonts/HelveticaNeue.dfont");
 }
 
@@ -60,10 +60,54 @@
 	color: #908C8C;
 }
 
-/* @font-face {
-	font-family: "Quantify";
-	src: url("../fonts/Quantify.ttf");
-} */
+.cart {
+	font-family: "cochin";
+	opacity: 0.9;
+	font-size: 2.3vh;
+}
+
+.login {
+	font-family: "cochin";
+	opacity: 0.7;
+}
+
+.signUpModal {
+	font-family: "cochin";
+	font-size: 1.2em;
+
+}
+
+.loginPage {
+	background-color: #F7C953;
+	height: 50vh;
+
+}
+
+.loginPageModal {
+	background-color: #F7C953;
+
+}
+
+
+.signIn {
+	font-family: "Lobster";
+	font-weight: bolder;
+	/* font-family: "Neue";
+	font-weight: lighter; */
+	font-size: 3.6em;
+}
+
+.loginDetails {
+	font-family: "Neue";
+	font-weight: bolder;
+}
+
+.registerBlurb {
+	color: grey;
+
+}
+
+
 
 
 

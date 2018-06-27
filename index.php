@@ -10,43 +10,16 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
+<body class="container-fluid" id="dirty">
+	
 
+<?php 
+$user = ""; 
+include "partials/header.php"; 
+?>
+<br>
 
-
-
-<body id="dirty" class="container-fluid">
-
-        <div class="container-fluid px-0" id="InsertID">           
-                <nav class="navbar-expand-lg navbar-dark" id="">
-                    <div class="row">
-
-
-                        <a class="navbar-brand col-12 text-center anti-padding" href="#">
-                                <h1 id="logo">zazameimei</h1>
-                            </a>
-        
-                        <ul class="nav col-12 text-center px-0 navigation">
-                            <li class="nav-item col-3">
-                            <a class="nav-link text-light" href="#">home</a>
-                            </li>
-                            
-                            <li class="nav-item col-3">
-                            <a class="nav-link text-light" href="#">journal</a>
-                            </li>
-                            
-                            <li class="nav-item col-3">
-                            <a class="nav-link text-light" href="#">about</a>
-                            </li>
-                            <li class="nav-item col-3">
-                                    <a class="nav-link text-light" href="#">shop</a>
-                            </li>
-                        </ul>           
-                        
-                    </div>
-                </nav> <!-- end Navbar -->
-                <br> <br>
-
-                <div class="col-12">
+	 <div class="col-12">
                         <h1 class="text-center blog-title">The Huggable Cactus</h1>
                         <p class="text-center blogPostdate">Posted on 20 June 2018 by zazameimei</p>
                 </div>
@@ -68,74 +41,10 @@
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-                
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- external custom js -->
-
-
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-    <!-- external bootstrap js -->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-
-
-
+<script type="text/javascript" src = "assets/js/function.js"></script>
+<script
+ src="https://code.jquery.com/jquery-3.3.1.js"
+ integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 </body>
 </html>
