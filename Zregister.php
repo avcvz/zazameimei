@@ -7,11 +7,12 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HEADER</title>
+    <title>Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
 
 </head>
 <body class="container-fluid bg-white">
@@ -19,14 +20,14 @@ session_start();
                 <nav class="navbar-expand-lg" id="">
                 <div class="row">
                     <div class="col-6">
-                        <a href="#" class="cart text-dark">cart</a>
+                        <a href="Zindex.php" class="b2home text-dark">back to Home</a>
                     </div>
 
-                    <div class="col-6 text-right">
+                    <!-- <div class="col-6 text-right">
                     <a href="Zlogin.php" class="text-dark login" data-toggle="modal" data-target="#signInModal">login</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="Zregister.php" class="text-dark login">register</a>
-                    </div>
+                    </div> -->
                 </div> <!--  end  row / LOG OUT-->
                  <div class="row">
 
@@ -115,7 +116,7 @@ session_start();
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->
-
+<br><br> <br>
 	
 
 </body>

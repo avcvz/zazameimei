@@ -101,24 +101,24 @@
                     <div class="row">
 
 
-                        <a class="navbar-brand col-12 text-center anti-padding" href="index.php">
+                        <a class="navbar-brand col-12 text-center anti-padding" href="Zindex.php">
                                 <h1 id="logo">zazameimei</h1>
                             </a>
                            
         
                         <ul class="nav col-12 text-center px-0 navigation">
-                            <li class="nav-item col-3">
+                            <li class="nav-item border border-right border-white col-3">
                             <a class="nav-link text-light" href="Zindex.php">home</a>
                             </li>
                             
-                            <li class="nav-item col-3">
+                            <li class="nav-item border border-right border-white col-3">
                             <a class="nav-link text-light" href="#">journal</a>
                             </li>
                             
-                            <li class="nav-item col-3">
+                            <li class="nav-item border border-right border-white col-3">
                             <a class="nav-link text-light" href="#">about</a>
                             </li>
-                            <li class="nav-item col-3">
+                            <li class="nav-item border border-right border-white col-3">
                                     <a class="nav-link text-light" href="Zshop.php">shop</a>
                             </li>
                         </ul>           

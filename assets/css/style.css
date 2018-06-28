@@ -4,9 +4,44 @@
 	box-sizing: border-box;
 }
 
+/*            FONT             */
+
+
 @font-face {
     font-family: "Lobster";
     src: url("../fonts/Lobster.otf");
+}
+
+@font-face {
+    font-family: "Lato-Black";
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+
+@font-face {
+    font-family: "Lato-Hairline";
+    src: url("../fonts/Lato-Hairline.ttf");
+}
+
+@font-face {
+    font-family: "Lato-HairlineItalic";
+    src: url("../fonts/Lato-HairlineItalic.ttf");
 }
 
 @font-face {
@@ -20,7 +55,7 @@
 }
 
 .para {
-	/* font-family: "HelveticaNeue"; */
+	font-family: "Lato-Light";
 	font-weight: lighter;
 	color: #575353;
 	
@@ -50,13 +85,13 @@
 }
 
 .blog-title {
-	font-weight: lighter;
+	font-family: "Lato-Regular";
 	font-size: 6vh;
 	color: #3B3939;
 }
 
 .blogPostdate {
-	font-weight: lighter;
+	font-family: "Lato-HairlineItalic";
 	color: #908C8C;
 }
 
@@ -79,7 +114,6 @@
 
 .loginPage {
 	background-color: #F7C953;
-	height: 33vh;
 	border-radius: 10px;
 
 }
@@ -99,7 +133,7 @@
 }
 
 .loginDetails {
-	font-family: "Neue";
+	font-family: "Lato-Black";
 	font-weight: bolder;
 }
 
@@ -110,11 +144,10 @@
 
 
 
-/*<---------------FOR TESTING -------------------->*/
 
 
 .signUp {
-	font-family: "Neue";
+	font-family: "Lato-Regular";
 	font-weight: 100;
 	letter-spacing: 2px;
 	font-size: 4.1vh;
@@ -136,20 +169,19 @@
 .btnColor {
 	background: #F7C953; /* Old browsers */ 
 
-    font-family: "cochin";
+	font-family: "Lato-Black";
 	font-weight: bolder;
 	font-size: 3.6em;
 }
 
 .plName {
-	font-family: "Neue";
+	font-family: "Lato-Light";
 	font-weight: lighter;
 
 }
 
 .registrationSuccess {
-	font-family: "Neue";
-	font-weight: bolder;
+	font-family: "Lato-Bold";
 	opacity: 1;
 	
 }
@@ -164,24 +196,72 @@
 }
 
 .plSignIn {
-	font-family: "Neue";
+	font-family: "Lato-Light";
 	font-weight: lighter;
 	color: red;
 
 }
 
 .anti-paddingReg {
-	background-color: black;
+	background-color: #F7C953;
 }
 
 #logo2 {
-	color: white;
+	color: black;
 	font-family: "Lobster";
 	font-size: 9vh;
 }
 
+#shop {
+	font-family: "Lato-Bold";
+}
+
+#bookTitle {
+	font-family: "cochin";
+}
+
+#bookDesc {
+	font-family: "Lato-Light";
+	opacity: 0.8;
+
+}
 
 
+
+
+#footer {
+	background: #F7C953;
+}
+
+.footerBlurb {
+	font-family: "Lato-Light";
+	opacity: 0.8;
+}
+
+#avcvz {
+	font-family: "Space Mono";
+	font-size: 1.1em;
+}
+
+.b2home {
+	font-family: "cochin";
+	font-size: 1.1em;
+	opacity: 0.8;
+
+}
+
+               /* TESTING                       */
+
+.bg-addItem {
+	background: black;
+}
+
+#logo3 {
+	font-family: "Lobster";
+	font-size: 9vh;
+	color: white;
+
+}
 
 
 

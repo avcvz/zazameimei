@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Shop</title>
+    <title>HEADER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -26,7 +26,7 @@ session_start();
 include "partials/Zheader.php"; ?>
 
 <h1 id="shop" >SHOP</h1>
-<br><br><br>
+<br>
 <div class="container">
 <?php 
 $sql = "SELECT * FROM items";
@@ -37,7 +37,7 @@ while($row = mysqli_fetch_assoc($result)){
 	echo "<div class = 'col-lg-4 col-md-6 col-12'>".
          "<img class = 'img-fluid rounded' src='".$row['img_path']."'>"."<br><br>".
          "<h3 id = 'bookTitle'>".$row['name']."</h3>"."<p id = 'bookDesc'>".$row['description']."</p>".
-         "<button class ='btn btn-dark btn-block' onclick='addToCart(".$row['id'].")'>BUY </button>"."<br><br><br>".
+         "<button class ='btn btn-dark btn-block' onclick='addToCart(".$row['id'].")'>BUY </button>"."<br><br>".
 	
         "</div>";
         
@@ -61,7 +61,7 @@ while($row = mysqli_fetch_assoc($result)){
 		"</div>";
 
 	echo "</div>"; -->
-	<div class="row border-top border-dark">
+	<div class="row">
     <div class="col-12 text-center" id="footer">
 		<br>
 	<p class="footerBlurb">Design, Developed & Deployed by &nbsp; <a class="text-dark" id="avcvz" href="https://www.avcvz.design/">avcvz design</a>  </p>
