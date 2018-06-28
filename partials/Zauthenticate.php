@@ -14,12 +14,12 @@
 			
 		$_SESSION["user"] = $username;
 	}else{
-		echo 'Incorrect login details.'."<br>"."<br>";
+		echo 'You have entered an invalid username or password.'."<br>"."<br>";
 		echo "<a href='../Zlogin.php'>Try Again</a>";
 	}
 
 	function authenticate($uname, $pw){
-		include "connect.php";
+		include "Zconnect.php";
 		$sql = "SELECT * FROM users WHERE username = '$uname'
 		AND password = '$pw'";
 

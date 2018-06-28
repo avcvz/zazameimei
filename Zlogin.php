@@ -17,37 +17,42 @@ session_start();
 <body class="container-fluid" id="dirty">
 	
 <?php 
-include "partials/header.php"; 
+include "partials/Zheader.php"; 
 ?>
 	<br> <br> <br> <br>
 	<div class="container loginPage col-6 offset-3">
 	<div class="text-center">
 	<br>
-	<h1 class="signIn">SIGN IN</h1>
+	<h1 class="signIn">Sign In</h1>
 	</div>
 		<div class="col-12 mx-auto">
 			
 				<!-- remember the METHOD in FORMS -->
 				<form action = "partials/Zauthenticate.php" method="POST"> 
-					<div class="form-group">
-						<label for="username" class="loginDetails">Username:</label>
+					<div class="form-group plSignIn">
 						<input type="username" name="username" class="form-control" placeholder="Username">
 					</div>
-					<br>
-					<div class="form-group">
-						<label for="password" class="loginDetails">Password:</label>
-						<input type="password" name="password" class="form-control" placeholder="Password">
+					<div class="form-group plSignIn">
+                        <input type="password" name="password" class="form-control plSignIn" placeholder="Password">
+                    <div class="text-center">
+                            
+			            <button type="submit" class="btn btn-block btn-dark loginDetails my-3">Enter</button>
+			
+			        </div>
 					</div>
-					<div class="col-12 text-center">
-					<br>
-					<button type="submit" class="btn-block btn-dark loginDetails">SIGN IN</button>
-					</div>
-				</form>
+					<p class="registerBlurb">Don't have an account? <a href="Zregister.php" class="text-dark signUpModal">&nbsp;Sign up</a> </p> <br>
+           		
+				</form>  
+		
 			
 		</div> <!-- end row -->
+
 	</div> <!-- end container -->
 
+
+
 	
+
 
 
 </body>

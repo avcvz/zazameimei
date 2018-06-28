@@ -38,7 +38,7 @@
 }
 
 .anti-padding {
-	background-color: #FFCD27
+	background-color: #FFCD27;
 }
 
 
@@ -79,12 +79,13 @@
 
 .loginPage {
 	background-color: #F7C953;
-	height: 50vh;
+	height: 33vh;
+	border-radius: 10px;
 
 }
 
-.loginPageModal {
-	background-color: #F7C953;
+.modal-dialog div#login-modal.modal-content.loginPageModal {
+	background-color: #F7C953!important;
 
 }
 
@@ -106,6 +107,81 @@
 	color: grey;
 
 }
+
+
+
+/*<---------------FOR TESTING -------------------->*/
+
+
+.signUp {
+	font-family: "Neue";
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 4.1vh;
+}
+
+
+.registerBG {
+	background: #F7C953;
+}
+
+.registerForm {
+	background: #F7C953;
+	border-radius: 10px;
+
+}
+
+
+
+.btnColor {
+	background: #F7C953; /* Old browsers */ 
+
+    font-family: "cochin";
+	font-weight: bolder;
+	font-size: 3.6em;
+}
+
+.plName {
+	font-family: "Neue";
+	font-weight: lighter;
+
+}
+
+.registrationSuccess {
+	font-family: "Neue";
+	font-weight: bolder;
+	opacity: 1;
+	
+}
+
+.registerWelcome {
+	border-radius: 10px;
+
+}
+
+.rgSuccessBlurb {
+	opacity: 0.6;
+}
+
+.plSignIn {
+	font-family: "Neue";
+	font-weight: lighter;
+	color: red;
+
+}
+
+.anti-paddingReg {
+	background-color: black;
+}
+
+#logo2 {
+	color: white;
+	font-family: "Lobster";
+	font-size: 9vh;
+}
+
+
+
 
 
 

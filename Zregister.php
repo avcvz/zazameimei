@@ -14,43 +14,104 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
-<body class="container-fluid" id="dirty">
+<body class="container-fluid bg-white">
+			<div class="container-fluid px-0" id="InsertID">           
+                <nav class="navbar-expand-lg" id="">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#" class="cart text-dark">cart</a>
+                    </div>
+
+                    <div class="col-6 text-right">
+                    <a href="Zlogin.php" class="text-dark login" data-toggle="modal" data-target="#signInModal">login</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Zregister.php" class="text-dark login">register</a>
+                    </div>
+                </div> <!--  end  row / LOG OUT-->
+                 <div class="row">
+
+
+                        <a class="navbar-brand col-12 text-center anti-paddingReg" href="Zindex.php">
+                                <h1 id="logo2">zazameimei</h1>
+                            </a>
+                           
+        
+                        <ul class="nav col-12 text-center px-0 navigation">
+                            <li class="nav-item col-3">
+                           
+                            </li>
+                            
+                            <li class="nav-item col-3">
+                          
+                            </li>
+                            
+                            <li class="nav-item col-3">
+                          
+                            </li>
+                            <li class="nav-item col-3">
+                                  
+                            </li>
+                        </ul>           
+                        
+                    </div>
+
+                </nav> <!-- end Navbar -->
+
 	
-<?php 
-include "partials/header.php";
- ?>
+<br><br>
+
 
 	 <div class="container">
 		<div class="row">
-			<div class="col-md-6 offset-md-3">
+
+			<div class="col-8 offset-2 border border-dark rounded">
+			<br>
+			
 				<!-- remember the METHOD in FORMS -->
-				<form action = "partials/ZregisterUser.php" method="POST"> 
-					<div class="form-group">
-						<label for="username">Username:</label>
-						<input type="username" name="username" class="form-control">
+				<h1 class="signUp text-dark">CREATE ACCOUNT</h1>
+
+				
+				<form action = "partials/ZRegisterUser.php" method="POST"> 
+
+					<div class="form-group plName">
+						<input type="text" name="name" class="form-control" placeholder="Full Name">
 					</div>
-					<div class="form-group">
-						<label for="address">Address:</label>
-						<input type="text" name="address" class="form-control">
+
+					<div class="form-group plName">
+						
+						<input type="username" name="username" class="form-control" placeholder="Username">
 					</div>
-					<div class="form-group">
-						<label for="email">Email:</label>
-						<input type="email" name="email" class="form-control">
+
+					<div class="form-group plName">
+						<input type="email" name="email" class="form-control" placeholder="Email">
 					</div>
-					<div class="form-group">
-						<label for="name"> Name:</label>
-						<input type="text" name="name" class="form-control">
+
+					<div class="form-group plName">
+						<input type="text" name="address" class="form-control" placeholder="Address">
 					</div>
-					<div class="form-group">
-						<label for="password">Password:</label>
-						<input type="password" name="password" class="form-control">
+					
+					
+					<div class="form-group plName">
+						<input type="password" name="password" class="form-control" placeholder="Password">
 					</div>
-					<div class="form-group">
-						<label for="password">Confirm Password:</label>
-						<input type="password" name="confirmPassword" class="form-control">
+					<div class="form-group plName">
+						<input type="password" name="confirmPassword" class="form-control"placeholder="Confirm password">
+					</div>	
+					
+					
+					<button type="submit" class="btn btn-dark btnColor btn-block">REGISTER</button>
+
+					<br>
+					<div class="col-12 text-left">
+					<p class="registerBlurb">Already have an account? <a href="Zlogin.php" class="text-dark">Log in here</a></p>
 					</div>
-					<button type="submit" class="btn btn-primary">Register</button>
+					
+
 				</form>
+
+				
+
+
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->

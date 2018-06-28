@@ -1,5 +1,5 @@
 <?php 
-    include "partials/connect.php";
+    include "partials/Zconnect.php";
 
  ?>
 
@@ -24,10 +24,10 @@
                 </div> <!--  end  row / LOG OUT-->
 
                 <!-- Modal -->
-<div class="loginPageModal "> <!-- yellow -->
+<div class="loginPageModal"> <!-- yellow -->
 <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content loginPageModal">
+    <div class="modal-content loginPageModal" id="login-modal">
 			
 			<div class=" loginPageModal text-center">
 			<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
@@ -44,12 +44,12 @@
 			
 				<!-- remember the METHOD in FORMS -->
 				<form action = "partials/Zauthenticate.php" method="POST"> 
-					<div class="form-group">
+					<div class="form-group plSignIn">
 						<input type="username" name="username" class="form-control" placeholder="Username">
 					</div>
-					<div class="form-group">
-                        <input type="password" name="password" class="form-control" placeholder="Password">
-                        <div class="text-center">
+					<div class="form-group plSignIn">
+                        <input type="password" name="password" class="form-control plSignIn" placeholder="Password">
+                    <div class="text-center">
                             
 			            <button type="submit" class="btn btn-block btn-dark loginDetails my-3">Enter</button>
 			
@@ -87,7 +87,10 @@
                     <div class="col-6 text-right">
                     <a href="#" class="text-dark login">hello</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="text-dark login">admin</a>
+                    <a href="profile.php" class="text-dark login">
+                <?php echo  
+                $_SESSION['user']; 
+                ?> </a>
                     </div>
                 </div> <!--  end  row / LOGGED -->
                 <br>
@@ -105,7 +108,7 @@
         
                         <ul class="nav col-12 text-center px-0 navigation">
                             <li class="nav-item col-3">
-                            <a class="nav-link text-light" href="index.php">home</a>
+                            <a class="nav-link text-light" href="Zindex.php">home</a>
                             </li>
                             
                             <li class="nav-item col-3">

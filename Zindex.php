@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +19,7 @@
 
 <?php 
 $user = ""; 
-include "partials/header.php"; 
+include "partials/Zheader.php"; 
 ?>
 <br>
 

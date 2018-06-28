@@ -9,7 +9,7 @@
 	
 <?php 
 $user = ""; 
-include "partials/header.php"; ?>
+include "partials/Zheader.php"; ?>
 
 	 <h1>This is the Cart page</h1>
 	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
