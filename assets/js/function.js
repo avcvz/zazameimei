@@ -12,3 +12,10 @@ function addToCart(id){
 	}
 	});
 }
+
+// $("#itemAdded").click(function()
+// 		{$("#alert").html("CHANGE BBBBBB")});
+
+$("#itemAdded").click(function(){
+    alert("Bye! You now leave p1!");
+});

@@ -26,8 +26,19 @@ $sql= "INSERT INTO items (name, price, img_path, description, category_id) VALUE
 
 $result = mysqli_query($conn, $sql);
 move_uploaded_file($file_tmpname, "../".$final_filepath);
+header('Location: ../testAddItemSuccess.php');
+
+
+//                  TEST              
+
+
+
+
+
 
 
 mysqli_close($conn);
 
 ?>
+
+

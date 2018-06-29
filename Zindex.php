@@ -23,6 +23,9 @@ include "partials/Zheader.php";
 ?>
 <br>
 
+
+
+
 	 <div class="col-12">
                         <h1 class="text-center blog-title">The Huggable Cactus</h1>
                         <p class="text-center blogPostdate">Posted on 20 June 2018 by zazameimei</p>

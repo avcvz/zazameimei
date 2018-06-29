@@ -49,7 +49,7 @@ include "partials/Zheader.php";
 			
 					
 					<br>
-					<button type="submit" class="btn btn-dark btnColor btn-block">REGISTER</button>
+					<button type="submit" class="btn btn-dark btnColor btn-block">ENTER</button>
 
 					<br>
 					<div class="col-12 text-left">

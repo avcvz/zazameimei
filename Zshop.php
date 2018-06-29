@@ -25,7 +25,7 @@ session_start();
 <?php 
 include "partials/Zheader.php"; ?>
 
-<h1 id="shop" >SHOP</h1>
+<h1 id="shop" > &nbsp;  SHOP</h1>
 <br><br><br>
 <div class="container">
 <?php 

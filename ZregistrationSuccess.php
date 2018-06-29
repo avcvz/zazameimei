@@ -28,7 +28,7 @@ session_start();
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	consequat.</p>
   <div col-12 class= "text-right" >
-<a  href="Zindex.php">return to Home</a>
+<a class="registerBlurb"  href="Zindex.php">return to Home</a>
 </div>
 </div>
 

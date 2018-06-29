@@ -72,7 +72,7 @@ session_start();
 				<h1 class="signUp text-dark">CREATE ACCOUNT</h1>
 
 				
-				<form action = "partials/ZRegisterUser.php" method="POST"> 
+				<form action = "partials/ZregisterUser.php" method="POST"> 
 
 					<div class="form-group plName">
 						<input type="text" name="name" class="form-control" placeholder="Full Name">
@@ -104,7 +104,7 @@ session_start();
 
 					<br>
 					<div class="col-12 text-left">
-					<p class="registerBlurb">Already have an account? <a href="Zlogin.php" class="text-dark">Log in here</a></p>
+					<p class="registerBlurb">Already have an account? <a href="Zlogin.php" id="" class="signUpModal text-dark">Log in</a></p>
 					</div>
 					
 

@@ -14,35 +14,10 @@
 <body class="container-fluid" id="dirty">
 	
 
-                    <div class="row">
-
-
-                        <a class="navbar-brand col-12 text-center anti-padding" href="Zindex.php">
-                                <h1 id="logo">zazameimei</h1>
-                            </a>
-                           
-        
-                        <ul class="nav col-12 text-center px-0 navigation">
-                            <li class="nav-item border border-right border-white col-3">
-                            <a class="nav-link text-light" href="Zindex.php">home</a>
-                            </li>
-                            
-                            <li class="nav-item border border-right border-white col-3">
-                            <a class="nav-link text-light" href="#">journal</a>
-                            </li>
-                            
-                            <li class="nav-item border border-right border-white col-3">
-                            <a class="nav-link text-light" href="#">about</a>
-                            </li>
-                            <li class="nav-item border border-right border-white col-3">
-                                    <a class="nav-link text-light" href="Zshop.php">shop</a>
-                            </li>
-                        </ul>           
-                        
-                    </div>
-
-                </nav> <!-- end Navbar -->
-                <br>
+<?php 
+$user = ""; 
+include "partials/Zheader.php"; 
+?>
 
 <br><br><br>
 
@@ -50,15 +25,12 @@
     <!--                    TEEESSSSSSTTTTINNNNNGGGGGGGG                         -->
 
 
-
-<!-- Modal -->
-
-<div class="modal fade" id="itemAddedLabel" tabindex="-1" role="dialog" aria-labelledby="itemAddedLabel" aria-hidden="true">
+<div  class="modal fade" id="itemAdded" tabindex="-1" role="dialog" aria-labelledby="itemAddedLabel" aria-hidden="true">
 <br> <br> <br> <br> <br> <br><br> <br>
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog " role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title blogTitle" id="itemAddedLabel">Item Added!</h5>
+        <h2 class="modal-title blogTitle" id="itemAddedLabel">ITEM ADDED!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -70,6 +42,15 @@
     </div>
   </div>
 </div>
+
+
+<script type="text/javascript">
+	
+	$('#itemAdded').modal({
+  keyboard: false
+})
+</script>
+
 
 
 
@@ -115,7 +96,7 @@
 					</div>
 					
 					
-					<button type="test" class="btn btn-dark btnColor btn-block" data-toggle="modal" data-target="#itemAddedLabel">
+					<button type="submit" class="btn btn-dark btnColor btn-block" >
 					  Submit
 					</button>
 
@@ -125,21 +106,15 @@
                 </form>
               
 
-
+				
 
 
 			</div>
 		</div> <!-- end row -->
 	</div> <!-- end container -->
-<br><br><br><br><br><br><br>
 
-  <div class="row border-top border-dark">
-    <div class="col-12 text-center " id="footer">
-    <br>
-  <p class="footerBlurb">Design, Developed & Deployed by &nbsp; <a class="text-dark" id="avcvz" href="https://www.avcvz.design/">avcvz design</a>  </p>
-  </div>
-  </div>
-
+<?php 
+include "partials/Zfooter.php"; ?>	
 
 <script type="text/javascript" src = "assets/js/function.js"></script>
 <script

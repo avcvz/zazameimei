@@ -19,7 +19,7 @@
 		$result2 = mysqli_query($conn, $sql2);
 		if ($result2 == true){
 			echo "success";
-			header('Location: ../ZRegistrationSuccess.php');
+			header('Location: ../ZregistrationSuccess.php');
 		} else {
 			echo mysqli_error($conn);
 		}

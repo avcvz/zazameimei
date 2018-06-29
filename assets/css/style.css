@@ -92,7 +92,8 @@
 
 .blogPostdate {
 	font-family: "Lato-HairlineItalic";
-	color: #908C8C;
+	color: black;
+	opacity: 0.9;
 }
 
 .cart {

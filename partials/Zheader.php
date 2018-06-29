@@ -1,7 +1,6 @@
 <?php 
     include "partials/Zconnect.php";
-
- ?>
+?>
 
 
 
@@ -87,10 +86,12 @@
                     <div class="col-6 text-right">
                     <a href="#" class="text-dark login">hello</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="profile.php" class="text-dark login">
+                    <a class="nav-link" href="profile.php">Welcome 
                 <?php echo  
                 $_SESSION['user']; 
-                ?> </a>
+                ?> 
+                </a> 
+
                     </div>
                 </div> <!--  end  row / LOGGED -->
                 <br>
