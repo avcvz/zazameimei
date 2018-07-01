@@ -10,6 +10,7 @@
             
         <div class="container-fluid px-0" id="InsertID">           
                 <nav class="navbar-expand-lg" id="">
+            
                 <div class="row">
                     <div class="col-6">
                         <a href="#" class="cart text-dark">cart</a>
@@ -77,6 +78,7 @@
                
                 <div class="container-fluid px-0" id="InsertID">           
                 <nav class="navbar-expand-lg navbar-dark" id="">
+                
 
                     <div class="row">
                     <div class="col-6">
@@ -100,29 +102,35 @@
 
 
                     <div class="row">
-
+                        
 
                         <a class="navbar-brand col-12 text-center anti-padding" href="Zindex.php">
                                 <h1 id="logo">zazameimei</h1>
                             </a>
-                           
+                            
+                            
         
                         <ul class="nav col-12 text-center px-0 navigation">
                             <li class="nav-item border border-right border-white col-3">
                             <a class="nav-link text-light" href="Zindex.php">home</a>
                             </li>
                             
+
+                                <li class="nav-item border border-right border-white col-3">
+                            <a class="nav-link text-light" href="Zabout.php">about</a>
+                            </li>
+
+
                             <li class="nav-item border border-right border-white col-3">
                             <a class="nav-link text-light" href="#">journal</a>
                             </li>
                             
+                            
                             <li class="nav-item border border-right border-white col-3">
-                            <a class="nav-link text-light" href="#">about</a>
-                            </li>
-                            <li class="nav-item border border-right border-white col-3">
-                                    <a class="nav-link text-light" href="Zshop.php">shop</a>
+                                    <a class="nav-link text-light" href="Zshop.php">shop & services</a>
                             </li>
                         </ul>           
+                        
                         
                     </div>
 
