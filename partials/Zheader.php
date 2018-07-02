@@ -80,22 +80,26 @@
                 <nav class="navbar-expand-lg navbar-dark" id="">
                 
 
-                    <div class="row">
-                    <div class="col-6">
-                        <a href="#" class="cart text-dark">my cart</a>
+                    <div class="row loginNav">
+                    <div class="col-4">
+                        <a href="cart.php" class="cart text-dark">my cart</a>
+                    </div>
+                    
+                    
+
+                    <div class="col-8 text-right">
+
+                     <p class="text-dark"> Welcome &nbsp; <a href="Zprofile.php"> <?php echo $_SESSION['user'] ?> </a>
+                    </p>
+                    
+                    <a class="text-dark" href="Zlogout.php"> Logout
+                    </a>
+
                     </div>
 
-                    <div class="col-6 text-right">
-                    <a href="#" class="text-dark login">hello</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="nav-link" href="profile.php">Welcome 
-                <?php echo  
-                $_SESSION['user']; 
-                ?> 
-                </a> 
-
-                    </div>
+                   
                 </div> <!--  end  row / LOGGED -->
+                </div>
                 <br>
 
 <?php } ?>
@@ -111,23 +115,23 @@
                             
         
                         <ul class="nav col-12 text-center px-0 navigation">
-                            <li class="nav-item border border-right border-white col-3">
+                            <li class="nav-item border  col-3">
                             <a class="nav-link text-light" href="Zindex.php">home</a>
                             </li>
                             
 
-                                <li class="nav-item border border-right border-white col-3">
+                                <li class="nav-item  border col-3">
                             <a class="nav-link text-light" href="Zabout.php">about</a>
                             </li>
 
 
-                            <li class="nav-item border border-right border-white col-3">
+                            <li class="nav-item border  col-3">
                             <a class="nav-link text-light" href="#">journal</a>
                             </li>
                             
                             
-                            <li class="nav-item border border-right border-white col-3">
-                                    <a class="nav-link text-light" href="Zshop.php">shop & services</a>
+                            <li class="nav-item border col-3">
+                                    <a class="nav-link text-light" href="Zshop.php">shop</a>
                             </li>
                         </ul>           
                         

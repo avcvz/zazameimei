@@ -37,7 +37,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 	echo "<div class = 'col-lg-4 col-md-6 col-12'>".
          "<img class = 'img-fluid rounded' src='".$row['img_path']."'>"."<br><br>".
-         "<h3 class = 'bookTitle'>".$row['name']."</h3>"."<p class = 'bookDesc'>".$row['description']."</p>".
+         "<h4 class = 'bookTitle'>".$row['name']."</h4>"."<p class = 'bookDesc'>".$row['description']."</p>".
          "<button class ='btn btn-dark btn-block' onclick='addToCart(".$row['id'].")'>BUY </button>"."<br><br><br>".
 	
         "</div>";
@@ -58,8 +58,8 @@ while($row = mysqli_fetch_assoc($result)){
 <div class="container-fluid">
 	<div class="row">
 		<div class = "col-lg-4 col-md-6 col-12"> 
-			<img class = img-fluid rounded src="assets/images/writing.png" height="100%" width="100%" >
-			<h3 class="bookTitle">Copy Editing</h3>
+			<img class = img-fluid rounded src="assets/images/writing.png" height="84%" width="84%" >
+			<h4 class="bookTitle">Copy Editing</h4>
 			<p class="bookDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente doloremque ea tempore illo beatae quas voluptatem. Facilis in nisi magnam, iusto quisquam est dolores libero at fuga minima consectetur.</p>
 			<a href="mailto:avcvz@gmail.com?Subject=Request%20Quotation%20for%20Copy%20Editing" class="btn btn-dark btn-block" role="button">Request Quotation </a>
 			<br><br><br>
@@ -67,8 +67,8 @@ while($row = mysqli_fetch_assoc($result)){
 		
 	
 		<div class = "col-lg-4 col-md-6 col-12"> 
-			<img class = img-fluid rounded src="assets/images/writing.png">
-			<h3 class="bookTitle">Content Writing</h3>
+			<img class =img-fluid rounded src="assets/images/writing.png"  height="84%" width="84%">
+			<h4 class="bookTitle">Content Writing</h4>
 			<p class="bookDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente doloremque ea tempore illo beatae quas voluptatem. Facilis in nisi magnam, iusto quisquam est dolores libero at fuga minima consectetur.</p>
 			<a href="mailto:avcvz@gmail.com?Subject=Request%20Quotation%20for%20Content%20Writing" class="btn btn-dark btn-block" role="button">Request Quotation </a>
 			<br><br><br>
@@ -76,8 +76,8 @@ while($row = mysqli_fetch_assoc($result)){
 		<br><br><br>
 
 		<div class = "col-lg-4 col-md-6 col-12"> 
-			<img class = img-fluid rounded src="assets/images/writing.png">
-			<h3 class="bookTitle">Laying-Out</h3>
+			<img class =img-fluid rounded src="assets/images/writing.png"  height="84%" width="84%">
+			<h4 class="bookTitle">Laying-Out</h4>
 			<p class="bookDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente doloremque ea tempore illo beatae quas voluptatem. Facilis in nisi magnam, iusto quisquam est dolores libero at fuga minima consectetur.</p>
 			<a href="mailto:avcvz@gmail.com?Subject=Request%20Quotation%20for%20Layout" class="btn btn-dark btn-block" role="button">Request Quotation </a>
 			<br><br><br>

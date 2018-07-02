@@ -14,8 +14,8 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
-<body class="container-fluid" id="dirty">
-	
+<body class="container-fluid bg-white">
+<div class="container-fluid" id="dirty"> 
 
 <?php 
 $user = ""; 
@@ -24,33 +24,71 @@ include "partials/Zheader.php";
 <br>
 
 
+    <div class="row">
 
+    <div class="col-12 mx-auto">
 
-	 <div class="col-12">
-                        <h1 class="text-center blog-title">The Huggable Cactus</h1>
-                        <p class="text-center blogPostdate">Posted on 20 June 2018 by zazameimei</p>
+        <h4 class="blog-title2 d-lg-none">The Cactus Who loves to Hug</h4>
+         <p class=" blogPostdate d-lg-none">Posted on 20 June 2018 by zazameimei</p>
+    </div>
+	 <div class="col-lg-6 col-12">
+
+                      
+                        <img src="assets/images/cactus.jpg" class="mx-auto d-block" alt="" height="100%" width="100%" >
                 </div>
                 <br>
-                <div class="col-12 img-fluid">
-                    <img src="assets/images/cactus.jpg" class="mx-auto d-block" alt="" height="50%" width="50%" ></div>  
-                </div>
+     
+                    
+  
                 <br> 
                 
-                <div class="col-12 container-fluid"> 
+    <div class="col-lg-6 col-12"> 
+                        <h1 class=" blog-title d-none d-lg-block">The Cactus Who loves to Hug</h1>
+                        <p class="text-center blogPostdate d-none d-lg-block">Posted on 20 June 2018 by zazameimei</p>
                     <p class="para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis totam neque distinctio quam architecto atque omnis veniam, rem placeat asperiores, molestias perspiciatis iusto nulla fugit mollitia illo odit voluptatum id!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis totam neque distinctio quam architecto atque omnis veniam, rem placeat asperiores, molestias perspiciatis iusto nulla fugit mollitia illo odit voluptatum id!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis totam neque distinctio quam architecto atque omnis veniam, rem placeat asperiores, molestias perspiciatis iusto nulla fugit mollitia illo odit voluptatum id!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis totam neque distinctio quam architecto atque omnis veniam, rem placeat asperiores, molestias perspiciatis iusto nulla fugit mollitia illo odit voluptatum id!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis totam neque distinctio quam architecto atque omnis veniam, rem placeat asperiores, molestias perspiciatis iusto nulla fugit mollitia illo odit voluptatum id!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias 
+                     <br> <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem 
+                    <br> <br>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit 
 
                     </p>
-                </div>
-                <br><br><br><br><br>
+    
 
+
+
+    </div>
+
+
+
+     <div class="col-12 para">
+     <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. <br> <br>  Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                <br><br><br><br><br>
+        </div>
+        <br><br><br><br><br>
 <?php 
 include "partials/Zfooter.php"; ?>
 
+</div>         <!--    end container -->
 
 <script type="text/javascript" src = "assets/js/function.js"></script>
 <script

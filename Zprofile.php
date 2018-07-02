@@ -1,6 +1,7 @@
-<?php
-	session_start();
+<?php 
+session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +18,29 @@
 	
 
 <?php 
-$user = ""; 
-include "partials/Zheader.php"; 
+include "partials/Zheader.php"; ?>
+
+<h1 id="shop" > &nbsp;  Profile</h1>
+<hr>
+<br><br><br>
+<div class="container-fluid">
+<?php 
+$sql = "SELECT * FROM users";
+$result = mysqli_query($conn, $sql);
+echo "<div class ='row'>";
+while($row = mysqli_fetch_assoc($result)){
+
+	echo "<div class = 'col-lg-4 col-md-6 col-12'>".
+         
+         "<h3 class = 'bookTitle'>".$row['fullname']."</h3>"."<p class = 'bookDesc'>".$row['email']."</p>"."<p class = 'bookDesc'>".$row['address']."</p>".
+
+         "<br><br><br>".
+	
+        "</div>";
+        
+}
+
+ "</div>";
 ?>
 
 
@@ -36,5 +58,9 @@ include "partials/Zfooter.php"; ?>
  src="https://code.jquery.com/jquery-3.3.1.js"
  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+</body>
+</html>
+
+
 </body>
 </html>

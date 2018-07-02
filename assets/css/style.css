@@ -56,8 +56,9 @@
 
 .para {
 	font-family: "Lato-Light";
-	font-weight: lighter;
+	font-size: 1.3em;
 	color: #575353;
+
 	
 }
 
@@ -85,8 +86,14 @@
 }
 
 .blog-title {
-	font-family: "Lato-Regular";
-	font-size: 6vh;
+	font-family: "cochin";
+	font-size: 5vh;
+	color: #3B3939;
+}
+
+.blog-title2 {
+	font-family: "cochin";
+	font-size: 5vh;
 	color: #3B3939;
 }
 
@@ -219,6 +226,7 @@
 
 .bookTitle {
 	font-family: "cochin";
+	font-size: 1.7em;
 }
 
 .bookDesc {
@@ -269,7 +277,14 @@
 
 .zquotes {
 	font-family: "Lobster";
-	font-size: 7vh;
+	font-size: 6vh;
+	opacity: 0.9;
+
+}
+
+.zquotesBG {
+	background-color: #F7C953;
+	opacity: 0.9;
 
 }
 
@@ -281,11 +296,17 @@
 }
 
 
+.myBooks {
+	font-family: "Lato-Bold";
+}
 
+/*
+                LOGIN CART  NAV BAR                        
+*/
 
-
-
-
+.loginNav {
+	height: 5px;
+}
 
 
 
