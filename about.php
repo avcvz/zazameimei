@@ -20,7 +20,7 @@ session_start();
 
 <?php 
 $user = ""; 
-include "partials/Zheader.php"; 
+include "partials/header.php"; 
 ?>
 
 
@@ -158,7 +158,7 @@ while($row = mysqli_fetch_assoc($result)){
     <br><br>
 
 <?php 
-include "partials/Zfooter.php"; ?>
+include "partials/footer.php"; ?>
 
 
 <script type="text/javascript" src = "assets/js/function.js"></script>

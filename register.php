@@ -20,7 +20,7 @@ session_start();
                 <nav class="navbar-expand-lg" id="">
                 <div class="row">
                     <div class="col-6">
-                        <a href="Zindex.php" class="b2home text-dark">back to Home</a>
+                        <a href="index.php" class="b2home text-dark">back to Home</a>
                     </div>
 
                     <!-- <div class="col-6 text-right">
@@ -32,7 +32,7 @@ session_start();
                  <div class="row">
 
 
-                        <a class="navbar-brand col-12 text-center anti-paddingReg" href="Zindex.php">
+                        <a class="navbar-brand col-12 text-center anti-paddingReg" href="index.php">
                                 <h1 id="logo2">zazameimei</h1>
                             </a>
                            
@@ -72,7 +72,7 @@ session_start();
 				<h1 class="signUp text-dark">CREATE ACCOUNT</h1>
 
 				
-				<form action = "partials/ZregisterUser.php" method="POST"> 
+				<form action = "partials/registerUser.php" method="POST"> 
 
 					<div class="form-group plName">
 						<input type="text" name="name" class="form-control" placeholder="Full Name">

@@ -18,17 +18,17 @@ session_start();
 </head>
 <body class="container-fluid" id="dirty">
 
-
+<div class="container-fluid">
 
 
 	
 <?php 
-include "partials/Zheader.php"; ?>
+include "partials/header.php"; ?>
 
 <h1 id="shop" > &nbsp;  SHOP</h1>
 <hr>
 <br><br><br>
-<div class="container-fluid">
+
 <?php 
 $sql = "SELECT * FROM items";
 $result = mysqli_query($conn, $sql);

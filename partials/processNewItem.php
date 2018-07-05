@@ -1,5 +1,5 @@
 <?php  
-include "Zconnect.php";
+include "connect.php";
 $itemName = $_POST ['itemName'];
 $category = $_POST ['category'];
 $price = $_POST ['price'];

@@ -19,7 +19,7 @@ session_start();
 
 <?php 
 $user = ""; 
-include "partials/Zheader.php"; 
+include "partials/header.php"; 
 ?>
 <br>
 
@@ -86,7 +86,7 @@ include "partials/Zheader.php";
         </div>
         <br><br><br><br><br>
 <?php 
-include "partials/Zfooter.php"; ?>
+include "partials/footer.php"; ?>
 
 </div>         <!--    end container -->
 

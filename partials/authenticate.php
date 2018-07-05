@@ -6,14 +6,14 @@
 	
 	if(authenticate($uname, $hashpw)){
 		$_SESSION['user'] = $uname;
-		header("Location: ../Zshop.php");
+		header("Location: ../shop.php");
 	} else {
 		echo 'You have entered an invalid username or password.'."<br>"."<br>";
-		echo "<a href='../Zlogin.php'>Try Again</a>";
+		echo "<a href='../login.php'>Try Again</a>";
 	}
 
 	function authenticate($uname, $pw){
-		include "Zconnect.php";	
+		include "connect.php";	
 		$sql = "SELECT * FROM users WHERE username = '$uname' AND password = '$pw'";
 		$result = mysqli_query($conn, $sql);
 		if (mysqli_num_rows($result) > 0) { 

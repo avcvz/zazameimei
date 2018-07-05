@@ -1,5 +1,5 @@
 <?php 
-	 include "Zconnect.php";
+	 include "connect.php";
 
 	
 	$username = $_POST['username'];
@@ -19,7 +19,7 @@
 		$result2 = mysqli_query($conn, $sql2);
 		if ($result2 == true){
 			echo "success";
-			header('Location: ../ZregistrationSuccess.php');
+			header('Location: ../registrationSuccess.php');
 		} else {
 			echo mysqli_error($conn);
 		}

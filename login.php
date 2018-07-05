@@ -18,7 +18,7 @@ session_start();
 <body class="container-fluid">
 	
 <?php 
-include "partials/Zheader.php"; 
+include "partials/header.php"; 
 ?>
 	<br>
 
@@ -33,7 +33,7 @@ include "partials/Zheader.php";
 				<h1 class="signIn text-dark text-center">Sign in</h1>
 
 				
-				<form action = "partials/Zauthenticate.php" method="POST"> 
+				<form action = "partials/authenticate.php" method="POST"> 
 
 
 					<div class="form-group plSignIn">
@@ -73,7 +73,7 @@ include "partials/Zheader.php";
 
 <?php 
 echo "<br><br><br><br><br><br>";
-include "partials/Zfooter.php"; ?>
+include "partials/footer.php"; ?>
 
 
 

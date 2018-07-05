@@ -17,7 +17,7 @@
 <nav class="navbar-expand-lg" id="">
                 <div class="row">
                     <div class="col-6">
-                        <a href="Zindex.php" class="b2home text-dark">back to Home</a>
+                        <a href="index.php" class="b2home text-dark">back to Home</a>
                     </div>
 
                      <!-- <div class="col-6 text-right">
@@ -29,7 +29,7 @@
                  <div class="row">
 
 
-                        <a class="navbar-brand col-12 text-center bg-addItem" href="Zindex.php">
+                        <a class="navbar-brand col-12 text-center bg-addItem" href="index.php">
                                 <h1 id="logo3" >zazameimei</h1>
                             </a>
                            
@@ -52,7 +52,7 @@
 				<h1 class="signUp text-dark">ADD NEW ITEM</h1>
 
 				
-				<form action = "partials/ZprocessNewItem.php" method="POST" enctype="multipart/form-data"> 
+				<form action = "partials/processNewItem.php" method="POST" enctype="multipart/form-data"> 
 
 					<div class="form-group plName">
 						<input type="text" name="itemName" class="form-control" placeholder="Item Name">

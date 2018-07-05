@@ -18,7 +18,7 @@ session_start();
 	
 
 <?php 
-include "partials/Zheader.php"; ?>
+include "partials/header.php"; ?>
 
 <h1 id="shop" > &nbsp;  Profile</h1>
 <hr>
@@ -49,7 +49,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 <?php 
 echo "<br><br><br><br><br><br>";
-include "partials/Zfooter.php"; ?>
+include "partials/footer.php"; ?>
 
 
 

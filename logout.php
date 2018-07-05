@@ -1,6 +1,7 @@
-<?php
-	session_start();
+<?php 
+session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,27 +15,18 @@
 
 </head>
 <body class="container-fluid bg-white">
-	
-
-<?php 
-$user = ""; 
-include "partials/Zheader.php"; 
-?>
+<div class="container-fluid" id="dirty"> 
 
 
-<br><br><br><br><br>
-
-
-<?php 
-echo "<br><br><br><br><br><br>";
-include "partials/Zfooter.php"; ?>
-
-
-
-<script type="text/javascript" src = "assets/js/function.js"></script>
-<script
- src="https://code.jquery.com/jquery-3.3.1.js"
- integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+	<?php  
+		session_unset();
+		session_destroy();
+		include "partials/header.php";
+	?>
+	<h2>You have logged out successfully</h2>
+	<a href="login.php">Login again</a>
+	<?php 
+		include "partials/footer.php";
+	?>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php 
-    include "partials/Zconnect.php";
+    include "partials/connect.php";
 ?>
 
 
@@ -17,9 +17,9 @@
                     </div>
 
                     <div class="col-6 text-right">
-                    <a href="Zlogin.php" class="text-dark login" data-toggle="modal" data-target="#signInModal">login</a>
+                    <a href="login.php" class="text-dark login" data-toggle="modal" data-target="#signInModal">login</a>
                         &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="Zregister.php" class="text-dark login">register</a>
+                    <a href="register.php" class="text-dark login">register</a>
                     </div>
                 </div> <!--  end  row / LOG OUT-->
 
@@ -43,7 +43,7 @@
 		<div class="col-12 mx-auto loginPageModal">
 			
 				<!-- remember the METHOD in FORMS -->
-				<form action = "partials/Zauthenticate.php" method="POST"> 
+				<form action = "partials/authenticate.php" method="POST"> 
 					<div class="form-group plSignIn">
 						<input type="username" name="username" class="form-control" placeholder="Username">
 					</div>
@@ -61,7 +61,7 @@
 				</form>
 
              <div class="loginPageModal">
-			<p class="registerBlurb" >Don't have an account? <a href="Zregister.php" class="text-dark signUpModal">&nbsp;Sign up</a></p> 
+			<p class="registerBlurb" >Don't have an account? <a href="register.php" class="text-dark signUpModal">&nbsp;Sign up</a></p> 
             <br><br>
             </div>
 			</div>
@@ -82,17 +82,17 @@
 
                     <div class="row loginNav">
                     <div class="col-4">
-                        <a href="cart.php" class="cart text-dark">my cart</a>
+                        <a href="#" class="cart text-dark">my cart</a>
                     </div>
                     
                     
 
                     <div class="col-8 text-right">
 
-                     <p class="text-dark"> Welcome &nbsp; <a href="Zprofile.php"> <?php echo $_SESSION['user'] ?> </a>
+                     <p class="text-dark"> Welcome &nbsp; <a href="#"> <?php echo $_SESSION['user'] ?> </a>
                     </p>
                     
-                    <a class="text-dark" href="Zlogout.php"> Logout
+                    <a class="text-dark" href="logout.php"> Logout
                     </a>
 
                     </div>
@@ -108,7 +108,7 @@
                     <div class="row">
                         
 
-                        <a class="navbar-brand col-12 text-center anti-padding" href="Zindex.php">
+                        <a class="navbar-brand col-12 text-center anti-padding" href="index.php">
                                 <h1 id="logo">zazameimei</h1>
                             </a>
                             
@@ -116,12 +116,12 @@
         
                         <ul class="nav col-12 text-center px-0 navigation">
                             <li class="nav-item border  col-3">
-                            <a class="nav-link text-light" href="Zindex.php">home</a>
+                            <a class="nav-link text-light" href="index.php">home</a>
                             </li>
                             
 
                                 <li class="nav-item  border col-3">
-                            <a class="nav-link text-light" href="Zabout.php">about</a>
+                            <a class="nav-link text-light" href="about.php">about</a>
                             </li>
 
 
@@ -131,7 +131,7 @@
                             
                             
                             <li class="nav-item border col-3">
-                                    <a class="nav-link text-light" href="Zshop.php">shop</a>
+                                    <a class="nav-link text-light" href="shop.php">shop</a>
                             </li>
                         </ul>           
                         

@@ -20,7 +20,7 @@ session_start();
 <body class="container-fluid">
 	
 <?php 
-include "partials/Zheader.php"; 
+include "partials/header.php"; 
 ?>
 	<br>
 
@@ -61,7 +61,7 @@ include "partials/Zheader.php";
 
 <?php 
  echo "<br>";
-include "partials/Zfooter.php"; ?>
+include "partials/footer.php"; ?>
 
 
 
