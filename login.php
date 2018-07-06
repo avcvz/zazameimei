@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
+    <title>SIGN IN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -20,10 +20,11 @@ session_start();
 <?php 
 include "partials/header.php"; 
 ?>
-	<br>
+	<br><br>
 
 
 <div class="container ">
+<br>
 		<div class="row">
 
 			<div class="col-8 offset-2 border border-dark rounded loginPage">
@@ -53,7 +54,7 @@ include "partials/header.php";
 
 					<br>
 					<div class="col-12 text-left">
-					<p class="registerBlurb">Don't have an account? <a href="Zregister.php" class="text-dark signUpModal">&nbsp;Sign up</a> </p> <br>
+					<p class="registerBlurb">Don't have an account? <a href="register.php" class="text-dark signUpModal">&nbsp;Sign up</a> </p> <br>
            		
 					</div>
 					
@@ -68,12 +69,13 @@ include "partials/header.php";
 	</div> <!-- end container -->
 
 	</div></div>
-<br><br><br><br><br>
 
+<br><br><br><br><br><br>
 
 <?php 
-echo "<br><br><br><br><br><br>";
-include "partials/footer.php"; ?>
+echo "<br><br><br><br><br><br><br>";
+include "partials/footer.php";
+ ?>
 
 
 

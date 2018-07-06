@@ -7,21 +7,43 @@
         
                 
 <?php if(!isset($_SESSION['user'])){ ?>
-            
-        <div class="container-fluid px-0" id="InsertID">           
-                <nav class="navbar-expand-lg" id="">
-            
-                <div class="row">
-                    <div class="col-6">
-                        <a href="#" class="cart text-dark">cart</a>
+
+
+
+
+
+
+ <div class="container-fluid px-0" id="InsertID">           
+                <nav class="navbar-expand-lg navbar-dark" id="">
+                
+
+                    <div class="row loginNav py-0">
+                    <div class="col-4 cart ">
+                        <a href="#" class="  cart text-dark">my cart</a>
+                    </div>
+                    
+                    
+
+                    <div class="col-8 text-right py-0">
+
+                     <p class="cart text-dark">&nbsp; <a href="login.php" class="text-dark" data-toggle="modal" data-target="#signInModal" > login </a>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-dark" href="register.php"> register</a>
+                    </p>
+                    
+                  
+
                     </div>
 
-                    <div class="col-6 text-right">
-                    <a href="login.php" class="text-dark login" data-toggle="modal" data-target="#signInModal">login</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="register.php" class="text-dark login">register</a>
-                    </div>
-                </div> <!--  end  row / LOG OUT-->
+                   <br>
+
+                </div> <!--  end  row / LOGGED -->
+                </div>
+                <br>
+
+
+<!-- TESTING -->
+
+            
 
                 <!-- Modal -->
 <div class="loginPageModal"> <!-- yellow -->
@@ -80,28 +102,28 @@
                 <nav class="navbar-expand-lg navbar-dark" id="">
                 
 
-                    <div class="row loginNav">
+                    <div class="row loginNav py-0">
                     <div class="col-4">
-                        <a href="#" class="cart text-dark">my cart</a>
+                        <a href="#" class="  cart text-dark">my cart</a>
                     </div>
                     
                     
 
-                    <div class="col-8 text-right">
+                    <div class="col-8 text-right py-0">
 
-                     <p class="text-dark"> Welcome &nbsp; <a href="#"> <?php echo $_SESSION['user'] ?> </a>
+                     <p class="cart ">&nbsp; <a href="#" class="userProfile text-success"> <?php echo $_SESSION['user'] ?> </a>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-dark" href="logout.php"> logout</a>
                     </p>
                     
-                    <a class="text-dark" href="logout.php"> Logout
-                    </a>
+                  
 
                     </div>
 
-                   
+                   <br>
+
                 </div> <!--  end  row / LOGGED -->
                 </div>
                 <br>
-
 <?php } ?>
 
 
@@ -114,24 +136,24 @@
                             
                             
         
-                        <ul class="nav col-12 text-center px-0 navigation">
-                            <li class="nav-item border  col-3">
-                            <a class="nav-link text-light" href="index.php">home</a>
+                        <ul class="nav  col-12 text-center px-0 navigation">
+                            <li class="naviLink nav-item border  col-3">
+                            <a class="insideLink nav-link" href="index.php">home</a>
                             </li>
                             
 
-                                <li class="nav-item  border col-3">
-                            <a class="nav-link text-light" href="about.php">about</a>
+                                <li class="naviLink nav-item  border col-3">
+                            <a class="insideLink nav-link" href="about.php">about</a>
                             </li>
 
 
-                            <li class="nav-item border  col-3">
-                            <a class="nav-link text-light" href="#">journal</a>
+                            <li class="naviLink nav-item border col-3">
+                            <a class="insideLink nav-link" href="#">journal</a>
                             </li>
                             
                             
-                            <li class="nav-item border col-3">
-                                    <a class="nav-link text-light" href="shop.php">shop</a>
+                            <li class="naviLink nav-item border col-3">
+                                    <a class="insideLink nav-link" href="shop.php">shop</a>
                             </li>
                         </ul>           
                         

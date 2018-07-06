@@ -7,15 +7,15 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
+    <title>Welcome Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
-<body class="container-fluid bg-white">
-<div class="container-fluid" id="dirty"> 
+<body class="container-fluid " id="dirty">
+<div id="dirty" > 
 
 <?php 
 $user = ""; 

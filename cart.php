@@ -35,11 +35,10 @@ include "partials/header.php";
 				
 
 				
-				<main class="wrapper">
+			
 		
 		
 		<?php 
-			// var_export($_SESSION['cart']);
 			foreach($_SESSION['cart'] as $row_key => $row_value){
 				echo "ID: " . $row_key . " Quantity: " . $row_value . "<br>"; 
 			}

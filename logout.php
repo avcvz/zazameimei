@@ -14,8 +14,8 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
-<body class="container-fluid bg-white">
-<div class="container-fluid" id="dirty"> 
+<body class="container-fluid" id="dirty">
+<div  id="dirty"> 
 
 
 	<?php  
@@ -23,10 +23,18 @@ session_start();
 		session_destroy();
 		include "partials/header.php";
 	?>
-	<h2>You have logged out successfully</h2>
+	<br>  <br> <br> <br>  <br>  <br> <br> <br>  
+	<div class="col-12 text-center  flex-column d-flex">
+	<h2 class="">You have logged out successfully</h2>
 	<a href="login.php">Login again</a>
+  <br> <br> <br>  <br> <br> <br> <br> <br> <br>  <br> <br> <br>
+  <br> <br> <br>  <br> <br> <br>  <br> <br> 
+  </div>
+  <div class="border">
 	<?php 
 		include "partials/footer.php";
 	?>
+	</div>
+</div>
 </body>
 </html>

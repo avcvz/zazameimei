@@ -20,7 +20,7 @@ session_start();
                 <nav class="navbar-expand-lg" id="">
                 <div class="row">
                     <div class="col-6">
-                        <a href="index.php" class="b2home text-dark">back to Home</a>
+                        <a href="index.php" class="b2home text-dark">back to home</a>
                     </div>
 
                     <!-- <div class="col-6 text-right">
@@ -104,7 +104,7 @@ session_start();
 
 					<br>
 					<div class="col-12 text-left">
-					<p class="registerBlurb">Already have an account? <a href="Zlogin.php" id="" class="signUpModal text-dark">Log in</a></p>
+					<p class="registerBlurb">Already have an account? <a href="login.php" id="" class="signUpModal text-dark">Log in</a></p>
 					</div>
 					
 

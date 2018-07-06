@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Shop</title>
+    <title>Zara's Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -16,9 +16,9 @@ session_start();
     
 
 </head>
-<body class="container-fluid" id="dirty">
+<body class="container-fluid" id="dirty" >
 
-<div class="container-fluid">
+<div id="dirty">
 
 
 	
@@ -103,7 +103,7 @@ while($row = mysqli_fetch_assoc($result)){
 	<div class="row border-top border-dark">
     <div class="col-12 text-center" id="footer">
 		<br>
-	<p class="footerBlurb">Designed, Developed, & Deployed by &nbsp; <a class="text-dark" id="avcvz" href="https://www.avcvz.design/">avcvz design</a>  </p>
+	<p class="footerBlurb">Designed, Developed, & Deployed by &nbsp; <a class="avcvz" href="https://www.avcvz.design/">AVCVZ DESIGN</a>  </p>
 	</div>
 	<br><br>
 	</div>
