@@ -44,15 +44,14 @@
     src: url("../fonts/Lato-HairlineItalic.ttf");
 }
 
+@font-face {
+    font-family: "Neue";
+    src: url("../fonts/HelveticaNeue.dfont");
+}
 
 @font-face {
     font-family: "cochin";
     src: url("../fonts/cochin.otf");
-}
-
-@font-face {
-    font-family: "Rajdhani-Medium";
-    src: url("../fonts/Rajdhani-Medium.ttf");
 }
 
 .para {
@@ -105,9 +104,9 @@
 }
 
 .cart {
-	font-family: "Rajdhani-Medium";
+	font-family: "cochin";
 	opacity: 0.9;
-	font-size: 1em;
+	font-size: 2.3vh;
 }
 
 .login {
@@ -117,7 +116,7 @@
 
 .signUpModal {
 	font-family: "cochin";
-	font-size: 1em;
+	font-size: 1.2em;
 
 }
 
@@ -245,13 +244,12 @@
 
 .footerBlurb {
 	font-family: "Lato-Light";
-	font-size: 0.8em;
 	opacity: 0.8;
 }
 
-.avcvz {
-	font-family: "Rajdhani-Medium";
-	color: black;
+#avcvz {
+	font-family: "Space Mono";
+	font-size: 1.1em;
 }
 
 .b2home {
@@ -311,28 +309,8 @@
 }
 
 
-/*HOVER EFFECT FOR NAVIGATION*/
 
 
-.insideLink {
-	color: white;
-}
-
-.insideLink:hover {
-	color: black;
-}
-
-.naviLink:hover {
-	background: white;
-	color: black;
-
-}
-
-
-.userProfile {
-	font-family: "Rajdhani-Medium"
-	color: black;
-}
 
 
 
