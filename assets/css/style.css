@@ -69,10 +69,19 @@
 
 #logo {
 	font-family: "Lobster";
-	font-size: 9vh;
+	font-size: 9.5vh;
 	color: black;
 
 }
+
+#logoMobile {
+	font-family: "Lobster";
+	font-size: 5vh;
+	color: black;
+
+}
+
+
 
 .anti-padding {
 	background-color: #FFCD27;
@@ -223,13 +232,30 @@
 
 #shop {
 	font-family: "Lato-Regular";
+	
+}
+
+.userMobile {
+	font-family: "Rajdhani-Medium";
+	font-size: 0.8em;
+	
+
 }
 
 .shopBlurb {
 	font-family: "Lato-Light";
-	opacity: 0.8;
+	opacity: 0.9;
 	color: #F7C953;
 }
+
+.shopBlurbMobile {
+	font-family: "Lato-Light";
+	opacity: 0.9;
+	font-size: 1em;
+	color: #F7C953;
+}
+
+
 
 .bookTitle {
 	font-family: "cochin";
@@ -348,13 +374,33 @@
 .cartTitle {
 	font-family: "cochin";
 	font-size: 1.2em;
+	opacity: 0.9;
+}
+
+.cartTitleMobile {
+	font-family: "Lato-Regular";
+	font-size: 1em;
 	opacity: 0.8;
 }
 
 .checkoutButton {
 	font-family: "Lato-Bold";
+	background-color: #F7C953;
+	
 }
 
+.checkoutButtonMobile {
+	font-family: "Lato-Bold";
+
+	
+}
+
+/* .checkoutButton:hover {
+	background-color: black;
+	color: #F7C953;
+	
+	
+} */
 
 .cartText {
 	font-family: "Lato-Light";
@@ -374,11 +420,42 @@
 	opacity: 0.8;
 }
 
+.myCartMobile {
+	font-family: "Lato-Bold";
+	font-size: 1.6em;
+	height: 1vh;
+	opacity: 0.9;
+}
 
 
 
 
-
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+	0% {
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+  }
+  @keyframes scale-up-center {
+	0% {
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+  }
+  
 
 
 

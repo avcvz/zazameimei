@@ -111,7 +111,7 @@
 
                     <div class="col-8 text-right py-0">
 
-                     <p class="cart ">&nbsp; <a href="#" class="userProfile text-success"> <?php echo $_SESSION['user'] ?> </a>
+                     <p class="cart ">&nbsp; <a href="#" class="userProfile text-warning"> <?php echo $_SESSION['user'] ?> </a>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-dark" href="logout.php"> logout</a>
                     </p>
                     
@@ -130,7 +130,7 @@
                     <div class="row">
                         
 
-                        <a class="navbar-brand col-12 text-center anti-padding" href="index.php">
+                        <a class="navbar-brand heightLogo col-12 text-center anti-padding" href="index.php">
                                 <h1 id="logo">zazameimei</h1>
                             </a>
                             

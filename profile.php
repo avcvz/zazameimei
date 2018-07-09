@@ -11,6 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
