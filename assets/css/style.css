@@ -222,7 +222,13 @@
 }
 
 #shop {
-	font-family: "Lato-Bold";
+	font-family: "Lato-Regular";
+}
+
+.shopBlurb {
+	font-family: "Lato-Light";
+	opacity: 0.8;
+	color: #F7C953;
 }
 
 .bookTitle {
@@ -337,10 +343,36 @@
 
 
 
+/*                 MY CART PAGE           */
+
+.cartTitle {
+	font-family: "cochin";
+	font-size: 1.2em;
+	opacity: 0.8;
+}
+
+.checkoutButton {
+	font-family: "Lato-Bold";
+}
 
 
+.cartText {
+	font-family: "Lato-Light";
+}
 
+.cartTotal {
+	font-family: "Lato-Regular";
+}
 
+.cartRemove {
+	font-family: "Lato-Regular";
+}
+
+.myCart {
+	font-family: "Lobster";
+	font-size: 3.5em;
+	opacity: 0.8;
+}
 
 
 

@@ -12,7 +12,6 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
     
 
 </head>
@@ -25,10 +24,17 @@ session_start();
 <?php 
 include "partials/header.php"; ?>
 
-<h1 id="shop" > &nbsp;  SHOP</h1>
-<hr>
+
+<div class="shopBlurb bg-warning  text-center">
+<br>
+<h2 class="shopBlurb text-dark" >&nbsp; Please support my craft by purchasing my books! Thank you! </h2>
+<br>
+</div>
 <br><br><br>
 
+<h1>Books</h1>
+<hr>
+<br><br><br>
 <?php 
 $sql = "SELECT * FROM items";
 $result = mysqli_query($conn, $sql);
@@ -52,7 +58,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 </div>
 
-<h1 id="shop" > &nbsp;  SERVICES</h1>
+<h2 id="shop" > &nbsp;  SERVICES</h2>
 <hr>
 <br><br><br>
 <div class="container-fluid">
