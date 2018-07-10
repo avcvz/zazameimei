@@ -12,6 +12,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Kurale" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 </head>
@@ -101,17 +102,21 @@ include "partials/header.php";
             <div class="row">
 
                 
-                
+        
                 <div class="d-none d-lg-block col-lg-6 order-lg-1 order-2 col-12 img-fluid">
+                    <br>
                     <img src="assets/images/zazameimei2.jpg" class="rounded img-fluid border" alt="" height="100%" width="100%" ></img>  
                 </div>
                  
                 
                 <div class="col-lg-6 order-1 col-12 ">
-                
+                <br>
 
-                    <h1 class="zquotes zquotesBG text-center rounded"> "Let your wild heart dance with the sweet tones of patience."</h1>
-
+                    <h1 class="zquotes zquotesBG d-none d-lg-block"> "Let your wild heart dance with the sweet tones of patience."</h1>
+                    
+                    <h1 class="zquotesMobile zquotesBG d-lg-none text-center"> "Let your wild heart dance with the sweet tones of patience."<br><br></h1>
+                    
+                    
                     <img src="assets/images/zazameimei2.jpg" class="rounded img-fluid mx-auto d-lg-none" alt="" height="100%" width="100%" ></img>  
                     
                     <p class="zBlurb ">

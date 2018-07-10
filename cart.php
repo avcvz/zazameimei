@@ -16,14 +16,15 @@ session_start();
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
+  <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 
 
 </head>
 <body class="container-fluid" id="dirty">
-<div class=" d-none d-lg-block ">
-<div class=" d-none d-lg-block ">
+<div class="row d-none d-lg-block ">
+
 <?php 
 include "partials/header.php"; 
 ?>
@@ -32,7 +33,6 @@ include "partials/header.php";
   
 
 <div class="container-fluid">
-
 
 
 

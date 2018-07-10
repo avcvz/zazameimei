@@ -2,6 +2,7 @@
 	padding:0;
 	margin: 0;
 	box-sizing: border-box;
+	color: #1F3D0C;
 }
 
 /*            FONT             */
@@ -13,8 +14,8 @@
 }
 
 @font-face {
-    font-family: "Lato-Black";
-    src: url("../fonts/Lato-Black.ttf");
+    font-family: "Lato-#1F3D0C";
+    src: url("../fonts/Lato-#1F3D0C.ttf");
 }
 
 
@@ -64,52 +65,87 @@
 }
 
 #dirty {
-	background-color: #F7F7F7;
+	background-color: #FAFAFA; 
+
+
 }
 
 #logo {
 	font-family: "Lobster";
-	font-size: 9.5vh;
-	color: black;
+	font-size: 15vh;
+	color: #1F3D0C;
+	
 
 }
+
+.toggleIcon {
+	color: #1F3D0C !important;
+	background: #1F3D0C;
+}
+
+#ham {
+	border: 0px;
+}
+
+
+.textDecor {
+	text-decoration: none !important;
+	color: #FFFFFF;
+   
+}
+
+#logoMobileHeader {
+	font-family: "Lobster";
+	font-size: 3.5em;
+	color: #1F3D0C;
+
+}
+
+.logoMobileSize {
+	height: 11.8vh;
+}
+
 
 #logoMobile {
 	font-family: "Lobster";
 	font-size: 5vh;
-	color: black;
+	color: #1F3D0C;
 
 }
 
 
 
 .anti-padding {
-	background-color: #FFCD27;
+	background-color:  #FFD54F   ;
 }
 
 
 .navigation {
-	font-family: "cochin";
-	color: white;
-	background-color: #4D4343
-	
+	font-family: 'Kurale', serif;
+	background-color: 	#C9E5E5            
 }
 
+.navigationMobile {
+	font-family: 'Kurale', serif;
+	background-color: #FFAB91;
+}
+
+
 .blog-title {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 5vh;
-	color: #3B3939;
+	color: #1F3D0C;
 }
 
 .blog-title2 {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 5vh;
-	color: #3B3939;
+	color: #1F3D0C;
 }
 
 .blogPostdate {
 	font-family: "Lato-HairlineItalic";
-	color: black;
+	color: #1F3D0C;
 	opacity: 0.9;
 }
 
@@ -120,24 +156,24 @@
 }
 
 .login {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	opacity: 0.7;
 }
 
 .signUpModal {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 1em;
 
 }
 
 .loginPage {
-	background-color: #F7C953;
+	background-color: #FDD835  ;
 	border-radius: 10px;
 
 }
 
 .modal-dialog div#login-modal.modal-content.loginPageModal {
-	background-color: #F7C953!important;
+	background-color: #FDD835  !important;
 
 }
 
@@ -151,7 +187,7 @@
 }
 
 .loginDetails {
-	font-family: "Lato-Black";
+	font-family: "Lato-#1F3D0C";
 	font-weight: bolder;
 }
 
@@ -173,11 +209,11 @@
 
 
 .registerBG {
-	background: #F7C953;
+	background: #FDD835  ;
 }
 
 .registerForm {
-	background: #F7C953;
+	background: #FDD835  ;
 	border-radius: 10px;
 
 }
@@ -185,9 +221,9 @@
 
 
 .btnColor {
-	background: #F7C953; /* Old browsers */ 
+	background: #FDD835  ; /* Old browsers */ 
 
-	font-family: "Lato-Black";
+	font-family: "Lato-#1F3D0C";
 	font-weight: bolder;
 	font-size: 3.6em;
 }
@@ -221,11 +257,11 @@
 }
 
 .anti-paddingReg {
-	background-color: #F7C953;
+	background-color: #FDD835  ;
 }
 
 #logo2 {
-	color: black;
+	color: #1F3D0C;
 	font-family: "Lobster";
 	font-size: 9vh;
 }
@@ -245,14 +281,14 @@
 .shopBlurb {
 	font-family: "Lato-Light";
 	opacity: 0.9;
-	color: #F7C953;
+	color: #FDD835  ;
 }
 
 .shopBlurbMobile {
 	font-family: "Lato-Light";
 	opacity: 0.9;
 	font-size: 1em;
-	color: #F7C953;
+	color: #FDD835  ;
 }
 
 
@@ -272,7 +308,7 @@
 
 
 #footer {
-	background: #F7C953;
+	background: #FDD835  ;
 }
 
 .footerBlurb {
@@ -283,7 +319,7 @@
 
 .avcvz {
 	font-family: "Rajdhani-Medium";
-	color: black;
+	color: #1F3D0C;
 }
 
 .b2home {
@@ -296,7 +332,7 @@
                /* TESTING                       */
 
 .bg-addItem {
-	background: black;
+	background: #1F3D0C;
 }
 
 #logo3 {
@@ -310,17 +346,31 @@
 				  /* ABOUT PAGE                    */
 
 .zquotes {
-	font-family: "Lobster";
+	font-family: 'Bad Script', cursive;
 	font-size: 6vh;
-	opacity: 0.9;
+	color: #E57373   ;
+	
 
 }
 
 .zquotesBG {
-	background-color: #F7C953;
-	opacity: 0.9;
+	background-color:  ;
 
 }
+
+.zquotesMobile {
+	font-family: 'Bad Script', cursive;
+	font-size: 5vh;
+	color: #E57373   ;
+
+
+}
+
+.zquotesBGMobile {
+	background-color:  ;
+
+}
+
 
 .zBlurb {
 	font-family: "Lato-Light";
@@ -347,23 +397,30 @@
 
 
 .insideLink {
-	color: white;
+	color: #1F3D0C;
+}
+
+
+.insideLinkMobile {
+	color:  #FAFAFA  !important;
+	font-size: 1.4em;
+	
 }
 
 .insideLink:hover {
-	color: black;
+	color: #1F3D0C;
 }
 
 .naviLink:hover {
-	background: white;
-	color: black;
+	background: #FAFAFA ;
+	color: #1F3D0C;
 
 }
 
 
 .userProfile {
 	font-family: "Rajdhani-Medium"
-	color: black;
+	color: #1F3D0C;
 }
 
 
@@ -385,7 +442,7 @@
 
 .checkoutButton {
 	font-family: "Lato-Bold";
-	background-color: #F7C953;
+	background-color: #FDD835  ;
 	
 }
 
@@ -396,8 +453,8 @@
 }
 
 /* .checkoutButton:hover {
-	background-color: black;
-	color: #F7C953;
+	background-color: #1F3D0C;
+	color: #FDD835  ;
 	
 	
 } */
@@ -426,6 +483,7 @@
 	height: 1vh;
 	opacity: 0.9;
 }
+
 
 
 

@@ -14,7 +14,7 @@
 
 
  <div class="container-fluid px-0" id="InsertID">           
-                <nav class="navbar-expand-lg navbar-dark" id="">
+                <nav class="navbar-expand-lg navbar-light" id="">
                 
 
                     <div class="row loginNav py-0">
@@ -127,43 +127,104 @@
 <?php } ?>
 
 
-                    <div class="row">
-                        
-
-                        <a class="navbar-brand heightLogo col-12 text-center anti-padding" href="index.php">
-                                <h1 id="logo">zazameimei</h1>
+                   
+                        <!-- DESKTOP         -->
+                    <div class="row d-none d-lg-block anti-padding">
+                        <a class=" col-12 text-center textDecor" href="index.php">
+                                <h1 class="textDecor" id="logo">zazameimei</h1>
                             </a>
-                            
-                            
-        
-                        <ul class="nav  col-12 text-center px-0 navigation">
-                            <li class="naviLink nav-item border  col-3">
+                    </div>
+
+                    <div class="row d-none d-lg-block">
+                        <ul class="nav  col-12 text-center px-0 navigation rounded-bottom">
+                            <li class="naviLink nav-item border border-white col-3">
                             <a class="insideLink nav-link" href="index.php">home</a>
                             </li>
                             
 
-                                <li class="naviLink nav-item  border col-3">
+                                <li class="naviLink nav-item  border border-white col-3">
                             <a class="insideLink nav-link" href="about.php">about</a>
                             </li>
 
 
-                            <li class="naviLink nav-item border col-3">
+                            <li class="naviLink nav-item border border-white  col-3">
                             <a class="insideLink nav-link" href="#">journal</a>
                             </li>
                             
                             
-                            <li class="naviLink nav-item border col-3">
+                            <li class="naviLink nav-item border border-white col-3">
                                     <a class="insideLink nav-link" href="shop.php">shop</a>
                             </li>
                         </ul>           
                         
-                        
+                
+                    </div>
+</div>
+                    
+
+
+                    <!-- END DESKTOP                -->
+
+
+                <!-- MOBILE       -->
+                       <div class="row d-lg-none navbar-light anti-padding logoMobileSize">
+                           <div class="col-10 text-right logoMobileSize">
+                        <a class=" textDecor  anti-padding text-right" href="index.php">
+                            <h1 class="textDecor"  id="logoMobileHeader">zazameimei</h1>
+                        </a>
+
+                        </div>
+                        <div class="col-2 text-right">
+                            
+                            <div data-toggle="collapse" data-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation" id="ham"><br>
+                    <h4 class="toggleIcon navbar-toggler-icon"></h4>
+</div>
+                    </div>
                     </div>
 
-                </nav> <!-- end Navbar -->
-                <br>
-                
+                <div class="  row d-lg-none navigationMobile navbar-light">
+                    <div class="col-12 ">
+                        
 
+ 
+ 
+
+                <div class="collapse navbar-collapse navigationMobile col-12" id="mobileNav">
+                        <ul class="navbar-nav navigationMobile">
+                            <li class="nav-item">
+                            <a class="insideLinkMobile nav-link" href="index.php">home</a>
+                            </li>
+                            
+
+                                <li class="nav-item">
+                            <a class="insideLinkMobile nav-link" href="about.php">about</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                            <a class="insideLinkMobile nav-link" href="#">journal</a>
+                            </li>
+                            
+                            
+                            <li class="nav-item  ">
+                                    <a class="insideLinkMobile nav-link" href="shop.php">shop</a>
+                            </li>
+                            
+                        </ul>           
+    
+                        
+                    </div>
+                    </div> 
+                   
+ 
+</div>
+<br>
+                            
+                            
+
+
+
+                  
                 
 
 

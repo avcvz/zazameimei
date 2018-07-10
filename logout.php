@@ -12,6 +12,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
 
 </head>
