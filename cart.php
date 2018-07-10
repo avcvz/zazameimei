@@ -23,16 +23,16 @@ session_start();
 
 </head>
 <body class="container-fluid" id="dirty">
-<div class="row d-none d-lg-block ">
 
+<main class="d-none d-lg-block ">
 <?php 
 include "partials/header.php"; 
 ?>
-	<br>
-  </div>
+</main>
+
   
 
-<div class="container-fluid">
+<div class="container-fluid  d-none d-lg-block">
 
 
 

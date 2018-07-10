@@ -148,7 +148,7 @@
 
 
                             <li class="naviLink nav-item border border-white  col-3">
-                            <a class="insideLink nav-link" href="#">journal</a>
+                            <a class="insideLink nav-link" href="journal.php">journal</a>
                             </li>
                             
                             
@@ -202,7 +202,7 @@
 
 
                             <li class="nav-item">
-                            <a class="insideLinkMobile nav-link" href="#">journal</a>
+                            <a class="insideLinkMobile nav-link" href="journal.php">journal</a>
                             </li>
                             
                             

@@ -24,9 +24,10 @@ session_start();
 <div id="dirty" >
 
 
-	
+	<div class="d-none d-lg-block">
 <?php 
 include "partials/header.php"; ?>
+
 
 
 <div class="shopBlurb bg-warning  text-center ">
@@ -98,17 +99,6 @@ while($row = mysqli_fetch_assoc($result)){
 
 </div>
 
-	<!-- echo "<div class = 'card col-4'>".
-		 "<img class = 'card-img-top' src='".$row['img_path']."'>"."<div class = 'card-body'>".
-		 "<p>".$row['name']."</p>".
-		 "<p>".$row['price']."</p>".
-		 // "<p>".$row['description']."</p>".
-		 "<input class='form-control' type='number' name ='quantity' id='quantity".$row['id']."'>".
-		 "<button class ='btn btn-primary' onclick='addToCart(".$row['id'].")'>Add to Cart </button>".
-		"</div>".
-		"</div>";
-
-	echo "</div>"; -->
 	<br><br><br><br><br>
 	<div class="row border-top border-dark">
     <div class="col-12 text-center" id="footer">
@@ -118,9 +108,6 @@ while($row = mysqli_fetch_assoc($result)){
 	<br><br>
 	</div>
 	</div> <!-- end desktop -->
-
-	</div>
-
 	</div>
 
 

@@ -47,7 +47,7 @@
 
 
 @font-face {
-    font-family: "cochin";
+    font-family: 'Kurale', serif;
     src: url("../fonts/cochin.otf");
 }
 
@@ -58,8 +58,9 @@
 
 .para {
 	font-family: "Lato-Light";
-	font-size: 1.3em;
 	color: #575353;
+	font-size: 1.2em;
+	opacity: 0.8;
 
 	
 }
@@ -107,8 +108,8 @@
 
 
 #logoMobile {
-	font-family: "Lobster";
-	font-size: 5vh;
+	font-family: 'Kurale', serif;
+	font-size: 4vh;
 	color: #1F3D0C;
 
 }
@@ -127,7 +128,7 @@
 
 .navigationMobile {
 	font-family: 'Kurale', serif;
-	background-color: #FFAB91;
+	background-color: #C9E5E5;
 }
 
 
@@ -144,9 +145,9 @@
 }
 
 .blogPostdate {
-	font-family: "Lato-HairlineItalic";
+	font-family: "Lato-Light";
 	color: #1F3D0C;
-	opacity: 0.9;
+	opacity: 1;
 }
 
 .cart {
@@ -294,7 +295,7 @@
 
 
 .bookTitle {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 1.7em;
 }
 
@@ -323,7 +324,7 @@
 }
 
 .b2home {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 1.1em;
 	opacity: 0.8;
 
@@ -403,7 +404,7 @@
 
 .insideLinkMobile {
 	color:  #FAFAFA  !important;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	
 }
 
@@ -429,7 +430,7 @@
 /*                 MY CART PAGE           */
 
 .cartTitle {
-	font-family: "cochin";
+	font-family: 'Kurale', serif;
 	font-size: 1.2em;
 	opacity: 0.9;
 }
