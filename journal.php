@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
-    <link href="https://fonts.googleapis.com/css?family=Cardo|Cutive|Kurale|Libre+Baskerville|Suranna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Kurale" rel="stylesheet">
     <meta property="og:title" content="zazameimei draws!"/>
     <meta property="og:image" content="https://zazameimei.000webhostapp.com/assets/images/zazameimei2.jpg" />
     <meta property="og:image:type" content="image/jpg" />

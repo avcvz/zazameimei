@@ -121,8 +121,11 @@ include "partials/header.php";
                     
                     <p class="zBlurb ">
                     <br>
-                    Hello! I'm Zara Mae Estareja. I finished BS Development Communication and earned MS units in the same field at the University of the Philippines Los Banos. I copy-edit & layout scholary publications. I also write for print and web. During my free time i take photos,watercolor, and Netflix and Chill. Now, I'm slowly living my childhood dream to become a children's book writer and illustrator.
-                  
+                    Hello! I'm Zara Mae Estareja. I finished BS Development Communication and earned MS units in the same field at the University of the Philippines Los Banos. I copy-edit & layout scholarly publications. I also write for print and web. During my free time i take photos,watercolor, and Netflix and Chill. Now, I'm slowly living my childhood dream to become a children's book writer and illustrator.
+
+                        <div class="zBlurb d-none d-lg-block" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis saepe ut cupiditate autem deserunt odit vel inventore, excepturi pariatur cumque vitae esse deleniti quidem amet quaerat accusantium ea dicta! Nihil!<br><br>
+                         Quod, sed. Eveniet repellendus fuga dolorum animi, numquam nobis consequatur obcaecati nisi nemo. Architecto laborum vel unde nam at quae quam tempore?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis saepe ut cupiditate autem deserunt odit vel inventore, excepturi pariatur cumque vitae esse deleniti quidem amet quaerat accusantium ea dicta  Quod, sed. Eveniet repellendus fuga dolorum animi, numquam nobis consequatur obcaecati nisi nemo. Architecto laborum vel unde nam at quae quam tempore?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis saepe ut cupiditate autem deserunt odit vel inventore, excepturi pariatur cumque vitae esse deleniti quidem amet quaerat accusantium ea dicta.
+                        </div>
 
                     
                     </p>

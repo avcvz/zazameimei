@@ -63,19 +63,19 @@ include "partials/header.php";
   <tbody>
     <tr>
       <th scope="row" ><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
-      <td class="col-12 text-center "><p class="col-12 cartTitle">Laylay sa Mundo ng mga Gulay</p></td>
+      <td class="col-12 text-center "><p class="col-12 cartTitle">Ang Mandirigmang Siopao</p></td>
       <td class="col-12 text-center"><p class="col-12 cartText">P300.00</p></td>
       <td ><i class="fas fa-trash">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></td>
     </tr>
     <tr>
       <th scope="row" class=""><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
-      <td class="col-12"><p class="col-12 text-center cartTitle">Red Balloon</p></td>
+      <td class="col-12"><p class="col-12 text-center cartTitle">The Cactus Who Loves to Hug</p></td>
       <td class="col-12"><p class="col-12 text-center cartText">P300.00</p></td>
       <td ><i class="fas fa-trash">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></td>
     </tr>
     <tr>
      <th scope="row" class=""><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
-      <td class="col-12"><p class="col-12 text-center cartTitle">Langgam sa Ilalim ng Tulay</p></td>
+      <td class="col-12"><p class="col-12 text-center cartTitle">Bakit Malungkot si Sunflower?</p></td>
       <td class="col-12"><p class="col-12 text-center cartText">P300.00</p></td>
 
       <td ><i class="fas fa-trash">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></td>
@@ -138,7 +138,7 @@ include "partials/header.php";
 
       <div class="col-4 mx-auto text-center">
       <br>
-      <p class="cartTitleMobile">Laylay sa Mundo ng mga Gulay</p>
+      <p class="cartTitleMobile">Ang Mandirigmang Siopao</p>
       </div>
 
        <div class="col-2 mx-auto">
@@ -163,7 +163,7 @@ include "partials/header.php";
 
     <div class="col-4 mx-auto text-center">
     <br>
-    <p class="cartTitleMobile">Red Balloon</p>
+    <p class="cartTitleMobile">The Cactus Who Loves to Hug</p>
     </div>
 
      <div class="col-2 mx-auto">
@@ -189,7 +189,7 @@ include "partials/header.php";
 
     <div class="col-4 mx-auto text-center">
     <br>
-    <p class="cartTitleMobile">Langgam sa Ilalim ng Tulay</p>
+    <p class="cartTitleMobile">Bakit Malungkot si Sunflower?</p>
     </div>
 
      <div class="col-2 mx-auto">
@@ -219,9 +219,9 @@ include "partials/header.php";
     </div>
     </div>
     <hr>
-    <br><br><br>
-<a href="checkout.php" class="btn btn-block btn-warning checkoutButtonMobile">CHECKOUT</a>
-    <br><br>
+    <br>
+<a href="checkout.php" class="btn btn-block btn-lg btn-warning checkoutButtonMobile">CHECKOUT</a>
+    <br>
 
 
 </div>
