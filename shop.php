@@ -30,9 +30,9 @@ include "partials/header.php"; ?>
 
 
 
-<div class="shopBlurb bg-warning  text-center ">
+<div class=" text-center ">
 <br>
-<h2 class="shopBlurb text-dark" >&nbsp; Please support my craft by purchasing my books! Thank you! </h2>
+<h4 class="zquotes" >&nbsp; Please support my craft by purchasing my books! Thank you! </h4>
 <br>
 </div>
 <br><br><br>

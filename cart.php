@@ -98,7 +98,7 @@ include "partials/header.php";
 <div class="col-12 text-right">
 <a href="shop.php" class="btn text-dark checkoutButton" role="button">CONTINUE SHOPPING</a>
     <button class="btn  checkoutButton">UPDATE CART</button>
-    <button class="btn    checkoutButton">CHECKOUT</button>
+    <a href="checkout.php" class="btn text-dark    checkoutButton">CHECKOUT</a>
 </div>
 
 
@@ -220,7 +220,7 @@ include "partials/header.php";
     </div>
     <hr>
     <br><br><br>
-<button class="btn btn-block btn-warning checkoutButtonMobile">CHECKOUT</button>
+<a href="checkout.php" class="btn btn-block btn-warning checkoutButtonMobile">CHECKOUT</a>
     <br><br>
 
 

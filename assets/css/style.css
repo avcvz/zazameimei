@@ -403,7 +403,7 @@
 
 
 .insideLinkMobile {
-	color:  #FAFAFA  !important;
+	color:  #1F3D0C  !important;
 	font-size: 1.1em;
 	
 }
@@ -485,7 +485,9 @@
 	opacity: 0.9;
 }
 
-
+.formColor {
+	background: red !important;
+}
 
 
 
