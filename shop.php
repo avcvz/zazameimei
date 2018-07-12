@@ -136,9 +136,10 @@ while($row = mysqli_fetch_assoc($result)){
 </div>
 <br> -->
 <div class="container-fluid">
-
 <br>
-<h1>Books</h1>
+<h5 class="zquotesMobile text-center" >&nbsp; Please support my craft by purchasing my books! Thank you! </h5>
+<br>
+<h2 id="shop">Books</h2>
 <hr>
 <br><br><br>
 <?php 

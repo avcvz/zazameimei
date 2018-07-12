@@ -65,6 +65,15 @@
 	
 }
 
+.paraHome {
+	font-family: "Lato-Light";
+	color: #575353;
+	font-size: 1.3em;
+
+
+	
+}
+
 #dirty {
 	background-color: #FAFAFA; 
 
@@ -147,7 +156,8 @@
 .blogPostdate {
 	font-family: "Lato-Light";
 	color: #1F3D0C;
-	opacity: 1;
+	font-size: 1.1em;
+	opacity: 0.5;
 }
 
 .cart {
@@ -270,6 +280,7 @@
 #shop {
 	font-family: "Lato-Regular";
 	
+	
 }
 
 
@@ -350,7 +361,15 @@
 .zquotes {
 	font-family: 'Bad Script', cursive;
 	font-size: 6vh;
-	color: #E57373   ;
+	color: #E57373;
+	
+
+}
+
+.zquotesMobile{
+	font-family: 'Bad Script', cursive;
+	font-size: 4vh !important;
+	color: #E57373;
 	
 
 }
@@ -454,12 +473,7 @@
 	
 }
 
-/* .checkoutButton:hover {
-	background-color: #1F3D0C;
-	color: #FDD835  ;
-	
-	
-} */
+
 
 .cartText {
 	font-family: "Lato-Light";
@@ -493,12 +507,24 @@
 
 
 
+/* INDEX PAGE */
 
 
+a{
+	text-decoration: none!important;
+	
+	
+}
 
 
+.socials	{
+	color: #1F3D0C;
+ font-size: 1.9em;
+}
 
-
+.socials:hover {
+	color: #000000;
+}
 
 
 
