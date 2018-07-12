@@ -62,19 +62,19 @@ include "partials/header.php";
   </thead>
   <tbody>
     <tr>
-      <th scope="row" ><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
+      <th scope="row" ><img src="assets/images/t-siopao60.jpg" class="img-fluid col-12"></th>
       <td class="col-12 text-center "><p class="col-12 cartTitle">Ang Mandirigmang Siopao</p></td>
       <td class="col-12 text-center"><p class="col-12 cartText">P300.00</p></td>
       <td ><i class="fas fa-trash">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></td>
     </tr>
     <tr>
-      <th scope="row" class=""><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
+      <th scope="row" class=""><img src="assets/images/t-cactus60.jpg" class="img-fluid col-12"></th>
       <td class="col-12"><p class="col-12 text-center cartTitle">The Cactus Who Loves to Hug</p></td>
       <td class="col-12"><p class="col-12 text-center cartText">P300.00</p></td>
       <td ><i class="fas fa-trash">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></td>
     </tr>
     <tr>
-     <th scope="row" class=""><img src="http://placehold.jp/60x60.png" class="img-fluid col-12"></th>
+     <th scope="row" class=""><img src="assets/images/t-sunflower60.jpg" class="img-fluid col-12"></th>
       <td class="col-12"><p class="col-12 text-center cartTitle">Bakit Malungkot si Sunflower?</p></td>
       <td class="col-12"><p class="col-12 text-center cartText">P300.00</p></td>
 
@@ -119,13 +119,13 @@ include "partials/header.php";
      <br>
      <div class="row ">
 
-     <div class="col-3 ">
-<h2><a href="shop.php"><i class="text-dark fas fa-arrow-left" ></i></a></h2>
+     <div class="col-2 ">
+<h3><a href="shop.php"><i class="text-dark fas fa-arrow-left" ></i></a></h3>
       </div>
-      <div class="col-6 ">
-      <h4 class="myCartMobile">&nbsp;&nbsp;&nbsp;&nbsp;My Cart(3)</h4>
+      <div class="col-8 text-center ">
+      <h2 class="myCartMobile">My Cart(3)</h2>
       </div>
-      <div class="col-3 text-right"><a href="cart.php"><h2><i class="text-dark fas fa-sync-alt"></i></h2></a></div>
+      <div class="col-2 text-right"><a href="cart.php"><h3><i class="text-dark fas fa-sync-alt"></i></h3></a></div>
       </div>
       <br>
     </div>
@@ -133,7 +133,7 @@ include "partials/header.php";
     
       <div class="col-3 class="mx-auto">
       <br>
-      <img " src="http://placehold.jp/80x80.png" alt="">
+      <img " src="assets/images/t-siopao.jpg" alt="">
       </div>
 
       <div class="col-4 mx-auto text-center">
@@ -158,7 +158,7 @@ include "partials/header.php";
     
     <div class="col-3 class="mx-auto">
     <br>
-    <img " src="http://placehold.jp/80x80.png" alt="">
+    <img " src="assets/images/t-cactus.jpg" alt="">
     </div>
 
     <div class="col-4 mx-auto text-center">
@@ -184,7 +184,7 @@ include "partials/header.php";
     
     <div class="col-3 class="mx-auto">
     <br>
-    <img " src="http://placehold.jp/80x80.png" alt="">
+    <img " src="assets/images/t-sunflower.jpg" alt="">
     </div>
 
     <div class="col-4 mx-auto text-center">

@@ -109,19 +109,20 @@ while($row = mysqli_fetch_assoc($result)){
 	</div>
 
 
-  <div class="row d-lg-none">  <!--   mobile start      -->
+  <div class="row d-lg-none ">  <!--   mobile start      -->
 
 <div class="col-12 registerBG d-lg-none">
  <br>
  <div class="row ">
 
- <div class="col-3 ">
-<h2><a href="index.php"><i class="text-dark fas fa-arrow-left" ></i></a></h2>
+ <div class="col-2 ">
+<h3><a href="index.php"><i class="text-dark fas fa-arrow-left" ></i></a></h3>
   </div>
-  <div class="col-6 text-center">
+  <div class="col-8 text-center">
   <h6 id="logoMobile">Zara's Shop</h6>
   </div>
-  <div class="col-3 text-right"><a href="cart.php"><h2><i class="text-dark fas fa-shopping-cart"></i></h2></a></div>
+  <div class="col-2 text-right"><a href="cart.php">
+  <h3><i class="text-dark fas fa-shopping-cart"></i></h3></a></div>
   </div>
   <br>
 </div>
@@ -185,7 +186,7 @@ while($row = mysqli_fetch_assoc($result)){
 		<br><br><br>
 
 		<div class = "col-lg-4 col-md-6 col-12"> 
-			<img class ="img-fluid rounded serviceLayoutanimate" src="assets/images/service3.svg"  height="100%" width="100%">
+			<img class ="img-fluid rounded serviceLayoutanimateMobile" src="assets/images/service3.svg"  height="100%" width="100%">
 			<h4 class="bookTitle">Laying-Out</h4>
 			<p class="bookDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente doloremque ea tempore illo beatae quas voluptatem. Facilis in nisi magnam, iusto quisquam est dolores libero at fuga minima consectetur.</p>
 			<a href="mailto:avcvz@gmail.com?Subject=Request%20Quotation%20for%20Layout" class="btn btn-primary btn-lg btn-block" role="button">Request Quotation </a>

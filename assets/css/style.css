@@ -109,7 +109,7 @@
 
 #logoMobile {
 	font-family: 'Kurale', serif;
-	font-size: 4vh;
+	font-size: 6vh;
 	color: #1F3D0C;
 
 }
@@ -481,7 +481,7 @@
 
 .myCartMobile {
 	font-family: "Lato-Bold";
-	font-size: 1.6em;
+	font-size: 2em;
 	height: 1vh;
 	opacity: 0.9;
 }
@@ -518,15 +518,20 @@
 
 .serviceLayoutanimate {
 
-	-webkit-animation:rotate-center 20s linear 1.5s infinite both;animation:rotate-center 20s linear .8s infinite both
+	-webkit-animation:rotate-center 20s linear 1.5s infinite reverse both;
+	animation:rotate-center 20s linear 1.5s infinite reverse both
 } 
 
+.serviceLayoutanimateMobile {
+	-webkit-animation:rotate-center 20s linear 1.5s infinite reverse both;animation:rotate-center 20s linear 1.5s infinite reverse both
+}
+
 .serviceCopyeditanimate {
-	-webkit-animation:rotate-center 35s linear 3s infinite reverse both;animation:rotate-center 35s linear 3s infinite reverse both
+	-webkit-animation:rotate-center 76s linear 3s infinite reverse both;animation:rotate-center 76s linear 3s infinite reverse both
 }
 
 .serviceContentwritinganimate {
-	-webkit-animation:rotate-center 80s linear 5s infinite alternate both;animation:rotate-center 80s linear 5s infinite alternate both
+	-webkit-animation:rotate-center 120s linear 5s infinite alternate both;animation:rotate-center 120s linear 5s infinite alternate both
 }
 
 

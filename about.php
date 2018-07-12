@@ -135,7 +135,7 @@ include "partials/header.php";
                
                 
         </div>
-        <div class="col-12 ">
+      
         <br><br>
                    <h1 class="myBooks">My Books</h1>
                     <p class="zBlurb ">
@@ -143,7 +143,7 @@ include "partials/header.php";
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum fuga tenetur exercitationem temporibus placeat quibusdam ipsa labore aut eaque! Quasi incidunt rerum autem, quibusdam at commodi fugit ipsum corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci illo assumenda sit quaerat eligendi repellendus quibusdam alias asperiores, sequi repudiandae magnam maxime aperiam, odit quos illum autem earum Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     <br><br><br>
             
-    </div>
+   
     <?php 
 $sql = "SELECT * FROM items";
 $result = mysqli_query($conn, $sql);

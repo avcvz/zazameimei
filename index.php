@@ -34,44 +34,64 @@ include "partials/header.php";
     
 
 
-      <!-- END TESTING -->
 
-      <div class="row mb-2">
+      <!-- START TESTING -->
 
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Illustration</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Mandirigmang Siopao</a>
-              </h3>
-              <div class="mb-1 text-muted">June 21</div>
-              <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim laboriosam voluptatibus, cumque similique impedit iure sit repellat.</p>
-              <a href="#">Continue reading</a>
-            </div>
-            <img src="assets/images/cactus.jpg"  height="30%" width="30%" class=" card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
 
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Illustration</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Boy Sunflower</a>
-              </h3>
-              <div class="mb-1 text-muted">July 12</div>
-              <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim laboriosam voluptatibus, cumque similique impedit iure sit repellat.</p>
-              <a href="#">Continue reading</a>
-            </div>
-            <img src="assets/images/cactus.jpg"  height="30%" width="30%" class=" card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-</div> <!-- end row -->
+     <main class="container">
+
+       <div class="row">
+
+      <div class="col-lg-8 col-md-8">
+        <!-- Blog Post -->
+   
+
+          <div class="card bg-dark text-white">
+  <img class="card-img" src="assets/images/siopao.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h2 class="card-title">TEST</h2>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+
+      </div>
+      <!-- end main body -->
+
+
+      <div class="col-lg-4 col-md-4">
 
 
 
+      </div>
+      <!-- end side body -->
+      
+      
+      </div>
+       <!-- end row -->
 
+       
+
+
+
+
+
+
+
+
+
+     </main>
+
+
+
+
+
+
+
+
+
+
+ <!-- END TESTING -->
 
         <br><br><br><br><br>
 
