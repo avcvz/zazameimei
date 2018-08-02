@@ -1,408 +1,344 @@
 * {
-	padding:0;
-	margin: 0;
-	box-sizing: border-box;
-	color: #1F3D0C;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #1F3D0C;
 }
 
 /*            FONT             */
 
-
 @font-face {
-    font-family: "Lobster";
-    src: url("../fonts/Lobster.otf");
+  font-family: "Lobster";
+  src: url("../fonts/Lobster.otf");
 }
 
 @font-face {
-    font-family: "Lato-#1F3D0C";
-    src: url("../fonts/Lato-#1F3D0C.ttf");
-}
-
-
-@font-face {
-    font-family: "Lato-Bold";
-    src: url("../fonts/Lato-Bold.ttf");
+  font-family: "Lato-#1F3D0C";
+  src: url("../fonts/Lato-#1F3D0C.ttf");
 }
 
 @font-face {
-    font-family: "Lato-Regular";
-    src: url("../fonts/Lato-Regular.ttf");
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-Bold.ttf");
 }
 
 @font-face {
-    font-family: "Lato-Light";
-    src: url("../fonts/Lato-Light.ttf");
-}
-
-
-@font-face {
-    font-family: "Lato-Hairline";
-    src: url("../fonts/Lato-Hairline.ttf");
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Lato-HairlineItalic";
-    src: url("../fonts/Lato-HairlineItalic.ttf");
-}
-
-
-@font-face {
-    font-family: 'Kurale', serif;
-    src: url("../fonts/cochin.otf");
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato-Light.ttf");
 }
 
 @font-face {
-    font-family: "Rajdhani-Medium";
-    src: url("../fonts/Rajdhani-Medium.ttf");
+  font-family: "Lato-Hairline";
+  src: url("../fonts/Lato-Hairline.ttf");
+}
+
+@font-face {
+  font-family: "Lato-HairlineItalic";
+  src: url("../fonts/Lato-HairlineItalic.ttf");
+}
+
+@font-face {
+  font-family: 'Kurale', serif;
+  src: url("../fonts/cochin.otf");
+}
+
+@font-face {
+  font-family: "Rajdhani-Medium";
+  src: url("../fonts/Rajdhani-Medium.ttf");
 }
 
 .para {
-	font-family: "Lato-Light";
-	color: #575353;
-	font-size: 1.2em;
-	opacity: 0.8;
-
-	
+  font-family: "Lato-Light";
+  color: #575353;
+  font-size: 1.2em;
+  opacity: 0.8;
 }
 
 .paraHome {
-	font-family: "Lato-Light";
-	color: #575353;
-	font-size: 1.3em;
-
-
-	
+  font-family: "Lato-Light";
+  color: #575353;
+  font-size: 1.3em;
 }
 
 #dirty {
-	background-color: #FAFAFA; 
-
-
+  background-color: #FAFAFA;
 }
 
 #logo {
-	font-family: "Lobster";
-	font-size: 15vh;
-	color: #1F3D0C;
-	
-
+  font-family: "Lobster";
+  font-size: 15vh;
+  color: #1F3D0C;
 }
 
 .toggleIcon {
-	color: #1F3D0C !important;
-	background: #1F3D0C;
+  color: #1F3D0C !important;
+  background: #1F3D0C;
 }
 
 #ham {
-	border: 0px;
+  border: 0px;
 }
 
-
 .textDecor {
-	text-decoration: none !important;
-	color: #FFFFFF;
-   
+  text-decoration: none !important;
+  color: #FFFFFF;
 }
 
 #logoMobileHeader {
-	font-family: "Lobster";
-	font-size: 3.5em;
-	color: #1F3D0C;
-
+  font-family: "Lobster";
+  font-size: 3.5em;
+  color: #1F3D0C;
 }
 
 .logoMobileSize {
-	height: 11.8vh;
+  height: 11.8vh;
 }
-
 
 #logoMobile {
-	font-family: 'Kurale', serif;
-	font-size: 6vh;
-	color: #1F3D0C;
-
+  font-family: 'Kurale', serif;
+  font-size: 6vh;
+  color: #1F3D0C;
 }
-
-
 
 .anti-padding {
-	background-color:  #FFD54F   ;
+  background-color: #FFD54F;
 }
 
-
 .navigation {
-	font-family: 'Kurale', serif;
-	background-color: 	#C9E5E5            
+  font-family: 'Kurale', serif;
+  background-color: #C9E5E5
 }
 
 .navigationMobile {
-	font-family: 'Kurale', serif;
-	background-color: #C9E5E5;
+  font-family: 'Kurale', serif;
+  background-color: #C9E5E5;
 }
 
-
 .blog-title {
-	font-family: 'Kurale', serif;
-	font-size: 5vh;
-	color: #1F3D0C;
+  font-family: 'Kurale', serif;
+  font-size: 5vh;
+  color: #1F3D0C;
 }
 
 .blog-title2 {
-	font-family: 'Kurale', serif;
-	font-size: 5vh;
-	color: #1F3D0C;
+  font-family: 'Kurale', serif;
+  font-size: 5vh;
+  color: #1F3D0C;
 }
 
 .blogPostdate {
-	font-family: "Lato-Light";
-	color: #1F3D0C;
-	font-size: 1.1em;
-	opacity: 0.5;
+  font-family: "Lato-Light";
+  color: #1F3D0C;
+  font-size: 1.1em;
+  opacity: 0.5;
 }
 
 .cart {
-	font-family: "Rajdhani-Medium";
-	opacity: 0.9;
-	font-size: 1em;
+  font-family: "Rajdhani-Medium";
+  opacity: 0.9;
+  font-size: 1em;
 }
 
 .login {
-	font-family: 'Kurale', serif;
-	opacity: 0.7;
+  font-family: 'Kurale', serif;
+  opacity: 0.7;
 }
 
 .signUpModal {
-	font-family: 'Kurale', serif;
-	font-size: 1em;
-
+  font-family: 'Kurale', serif;
+  font-size: 1em;
 }
 
 .loginPage {
-	background-color: #FDD835  ;
-	border-radius: 10px;
-
+  background-color: #FDD835;
+  border-radius: 10px;
 }
 
 .modal-dialog div#login-modal.modal-content.loginPageModal {
-	background-color: #FDD835  !important;
-
+  background-color: #FDD835 !important;
 }
 
-
 .signIn {
-	font-family: "Lobster";
-	font-weight: bolder;
-	/* font-family: "Neue";
+  font-family: "Lobster";
+  font-weight: bolder;
+  /* font-family: "Neue";
 	font-weight: lighter; */
-	font-size: 3.6em;
+  font-size: 3.6em;
 }
 
 .loginDetails {
-	font-family: "Lato-#1F3D0C";
-	font-weight: bolder;
+  font-family: "Lato-#1F3D0C";
+  font-weight: bolder;
 }
 
 .registerBlurb {
-	color: grey;
-
+  color: grey;
 }
-
-
-
-
 
 .signUp {
-	font-family: "Lato-Regular";
-	font-weight: 100;
-	letter-spacing: 2px;
-	font-size: 4.1vh;
+  font-family: "Lato-Regular";
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 4.1vh;
 }
 
-
 .registerBG {
-	background: #FDD835  ;
+  background: #FDD835;
 }
 
 .registerForm {
-	background: #FDD835  ;
-	border-radius: 10px;
-
+  background: #FDD835;
+  border-radius: 10px;
 }
 
-
-
 .btnColor {
-	background: #FDD835  ; /* Old browsers */ 
-
-	font-family: "Lato-#1F3D0C";
-	font-weight: bolder;
-	font-size: 3.6em;
+  background: #FDD835;
+  /* Old browsers */
+  font-family: "Lato-#1F3D0C";
+  font-weight: bolder;
+  font-size: 3.6em;
 }
 
 .plName {
-	font-family: "Lato-Light";
-	font-weight: lighter;
-
+  font-family: "Lato-Light";
+  font-weight: lighter;
 }
 
 .registrationSuccess {
-	font-family: "Lato-Bold";
-	opacity: 1;
-	
+  font-family: "Lato-Bold";
+  opacity: 1;
 }
 
 .registerWelcome {
-	border-radius: 10px;
-
+  border-radius: 10px;
 }
 
 .rgSuccessBlurb {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
 .plSignIn {
-	font-family: "Lato-Light";
-	font-weight: lighter;
-	color: red;
-
+  font-family: "Lato-Light";
+  font-weight: lighter;
+  color: red;
 }
 
 .anti-paddingReg {
-	background-color: #FDD835  ;
+  background-color: #FDD835;
 }
 
 #logo2 {
-	color: #1F3D0C;
-	font-family: "Lobster";
-	font-size: 9vh;
+  color: #1F3D0C;
+  font-family: "Lobster";
+  font-size: 9vh;
 }
 
 #shop {
-	font-family: "Lato-Regular";
-	
-	
+  font-family: "Lato-Regular";
 }
 
-
 .userMobile {
-	font-family: "Rajdhani-Medium";
-	font-size: 0.8em;
-	
-
+  font-family: "Rajdhani-Medium";
+  font-size: 0.8em;
 }
 
 .shopBlurb {
-	font-family: "Lato-Light";
-	opacity: 0.9;
-	color: #FDD835  ;
+  font-family: "Lato-Light";
+  opacity: 0.9;
+  color: #FDD835;
 }
 
 .shopBlurbMobile {
-	font-family: "Lato-Light";
-	opacity: 0.9;
-	font-size: 1em;
-	color: #FDD835  ;
+  font-family: "Lato-Light";
+  opacity: 0.9;
+  font-size: 1em;
+  color: #FDD835;
 }
 
-
-
 .bookTitle {
-	font-family: 'Kurale', serif;
-	font-size: 1.7em;
+  font-family: 'Kurale', serif;
+  font-size: 1.7em;
 }
 
 .bookDesc {
-	font-family: "Lato-Light";
-	opacity: 0.8;
-
+  font-family: "Lato-Light";
+  opacity: 0.8;
 }
 
-
-
-
 #footer {
-	background: #FDD835  ;
+  background: #FDD835;
 }
 
 .footerBlurb {
-	font-family: "Lato-Light";
-	font-size: 0.8em;
-	opacity: 0.8;
+  font-family: "Lato-Light";
+  font-size: 0.8em;
+  opacity: 0.8;
 }
 
 .avcvz {
-	font-family: "Rajdhani-Medium";
-	color: #1F3D0C;
+  font-family: "Rajdhani-Medium";
+  color: #1F3D0C;
 }
 
 .b2home {
-	font-family: 'Kurale', serif;
-	font-size: 1.1em;
-	opacity: 0.8;
-
+  font-family: 'Kurale', serif;
+  font-size: 1.1em;
+  opacity: 0.8;
 }
 
-               /* TESTING                       */
+/* TESTING                       */
 
 .bg-addItem {
-	background: #1F3D0C;
+  background: #1F3D0C;
 }
 
 #logo3 {
-	font-family: "Lobster";
-	font-size: 9vh;
-	color: white;
-
+  font-family: "Lobster";
+  font-size: 9vh;
+  color: white;
 }
 
-
-				  /* ABOUT PAGE                    */
+/* ABOUT PAGE                    */
 
 .zquotes {
-	font-family: 'Bad Script', cursive;
-	font-size: 6vh;
-	color: #E57373;
-	
-
-}
-
-.zquotesMobile{
-	font-family: 'Bad Script', cursive;
-	font-size: 4vh !important;
-	color: #E57373;
-	
-
-}
-
-.zquotesBG {
-	background-color:  ;
-
+  font-family: 'Bad Script', cursive;
+  font-size: 6vh;
+  color: #E57373;
 }
 
 .zquotesMobile {
-	font-family: 'Bad Script', cursive;
-	font-size: 5vh;
-	color: #E57373   ;
+  font-family: 'Bad Script', cursive;
+  font-size: 4vh !important;
+  color: #E57373;
+}
 
+.zquotesBG {
+  background-color: ;
+}
 
+.zquotesMobile {
+  font-family: 'Bad Script', cursive;
+  font-size: 5vh;
+  color: #E57373;
 }
 
 .zquotesBGMobile {
-	background-color:  ;
-
+  background-color: ;
 }
-
 
 .zBlurb {
-	font-family: "Lato-Light";
-	font-size: 1.4em;
-	color: #575353;
-
+  font-family: "Lato-Light";
+  font-size: 1.4em;
+  color: #575353;
 }
 
-
 .myBooks {
-	font-family: "Lato-Bold";
+  font-family: "Lato-Bold";
 }
 
 /*
@@ -410,237 +346,198 @@
 */
 
 .loginNav {
-	height: 5px;
+  height: 5px;
 }
-
 
 /*HOVER EFFECT FOR NAVIGATION*/
 
-
 .insideLink {
-	color: #1F3D0C;
+  color: #1F3D0C;
 }
 
-
 .insideLinkMobile {
-	color:  #1F3D0C  !important;
-	font-size: 1.1em;
-	
+  color: #1F3D0C !important;
+  font-size: 1.1em;
 }
 
 .insideLink:hover {
-	color: #1F3D0C;
+  color: #1F3D0C;
 }
 
 .naviLink:hover {
-	background: #FAFAFA ;
-	color: #1F3D0C;
-
+  background: #FAFAFA;
+  color: #1F3D0C;
 }
-
 
 .userProfile {
-	font-family: "Rajdhani-Medium"
-	color: #1F3D0C;
+  font-family: "Rajdhani-Medium" color: #1F3D0C;
 }
-
-
-
 
 /*                 MY CART PAGE           */
 
 .cartTitle {
-	font-family: 'Kurale', serif;
-	font-size: 1.2em;
-	opacity: 0.9;
+  font-family: 'Kurale', serif;
+  font-size: 1.2em;
+  opacity: 0.9;
 }
 
 .cartTitleMobile {
-	font-family: "Lato-Regular";
-	font-size: 1em;
-	opacity: 0.8;
+  font-family: "Lato-Regular";
+  font-size: 1em;
+  opacity: 0.8;
 }
 
 .checkoutButton {
-	font-family: "Lato-Bold";
-	background-color: #FDD835  ;
-	
+  font-family: "Lato-Bold";
+  background-color: #FDD835;
 }
 
 .checkoutButtonMobile {
-	font-family: "Lato-Bold";
-
-	
+  font-family: "Lato-Bold";
 }
 
-
-
 .cartText {
-	font-family: "Lato-Light";
+  font-family: "Lato-Light";
 }
 
 .cartTotal {
-	font-family: "Lato-Regular";
+  font-family: "Lato-Regular";
 }
 
 .cartRemove {
-	font-family: "Lato-Regular";
+  font-family: "Lato-Regular";
 }
 
 .myCart {
-	font-family: "Lobster";
-	font-size: 3.5em;
-	opacity: 0.8;
+  font-family: "Lobster";
+  font-size: 3.5em;
+  opacity: 0.8;
 }
 
 .myCartMobile {
-	font-family: "Lato-Bold";
-	font-size: 2em;
-	height: 1vh;
-	opacity: 0.9;
+  font-family: "Lato-Bold";
+  font-size: 2em;
+  height: 1vh;
+  opacity: 0.9;
 }
 
 .formColor {
-	background: red !important;
+  background: red !important;
 }
-
-
-
 
 /* INDEX PAGE */
 
-
-a{
-	text-decoration: none!important;
-	
-	
+a {
+  text-decoration: none !important;
 }
 
-
-.socials	{
-	color: #1F3D0C;
- font-size: 1.9em;
+.socials {
+  color: #1F3D0C;
+  font-size: 1.9em;
 }
 
 .socials:hover {
-	color: #000000;
+  color: #000000;
 }
 
+/* ====== PURCHASE SUCCESSFUL PAGE ====== */
 
+.thankyouheading {
+  font-family: 'Bad Script', cursive;
+  font-size: 6vh;
+  color: #E57373;
+}
 
+.thankyoubody {
+  font-family: 'Kurale', serif;
+  font-size: 3vh;
+  color: #E57373;
+}
 
-
-
-
-
-
-
-
-
+.backtohomebutton {
+  font-family: 'Kurale', serif;
+  font-size: 1.7vh;
+  color: #E57373;
+}
 
 /* ANIMATION */
 
-
-
 .serviceLayoutanimate {
-
-	-webkit-animation:rotate-center 20s linear 1.5s infinite reverse both;
-	animation:rotate-center 20s linear 1.5s infinite reverse both
-} 
+  -webkit-animation: rotate-center 20s linear 1.5s infinite reverse both;
+  animation: rotate-center 20s linear 1.5s infinite reverse both
+}
 
 .serviceLayoutanimateMobile {
-	-webkit-animation:rotate-center 20s linear 1.5s infinite reverse both;animation:rotate-center 20s linear 1.5s infinite reverse both
+  -webkit-animation: rotate-center 20s linear 1.5s infinite reverse both;
+  animation: rotate-center 20s linear 1.5s infinite reverse both
 }
 
 .serviceCopyeditanimate {
-	-webkit-animation:rotate-center 76s linear 3s infinite reverse both;animation:rotate-center 76s linear 3s infinite reverse both
+  -webkit-animation: rotate-center 76s linear 3s infinite reverse both;
+  animation: rotate-center 76s linear 3s infinite reverse both
 }
 
 .serviceContentwritinganimate {
-	-webkit-animation:rotate-center 120s linear 5s infinite alternate both;animation:rotate-center 120s linear 5s infinite alternate both
+  -webkit-animation: rotate-center 120s linear 5s infinite alternate both;
+  animation: rotate-center 120s linear 5s infinite alternate both
 }
-
-
 
 /* ----------------------------------------------
  * Generated by Animista on 2018-7-11 21:44:33
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
- @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
 
 /*media queries*/
 
-
-
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-	
 
-
-
-  
-   
-
-  
-
+@media (max-width: 575.98px) {
+  .zaragif {
+    height: 40%;
+    width: 40%;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
-
-
-
-
+  .zaragif {
+    height: 40%;
+    width: 40%;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-	
 
-
-
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
 
-	
-
-	
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
-
-	
-
-
-
-{
+    {

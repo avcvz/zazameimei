@@ -9,6 +9,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Zara's Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, shrink-to-fit=no">
+	<meta name="theme-color" content="#FFAB91" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/zari.png">
@@ -136,8 +137,6 @@ while($row = mysqli_fetch_assoc($result)){
 </div>
 <br> -->
 <div class="container-fluid">
-<br>
-<h5 class="zquotesMobile text-center" >&nbsp; Please support my craft by purchasing my books! Thank you! </h5>
 <br>
 <h2 id="shop">Books</h2>
 <hr>

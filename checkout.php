@@ -153,7 +153,8 @@ $user = "";
               </div>
             </div>
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Complete Purchase</button>
+            <a href="thankyousenpai.php">
+            <button class="btn btn-primary btn-lg btn-block"  type="button">Complete Purchase</button> </a>
             <hr>
             <h6><i class="text-dark fas fa-shopping-cart"></i>&nbsp;<a href="cart.php"> CART REVIEW</a> </h6>
           </form>
